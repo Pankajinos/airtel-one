@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+  body {
+    font-family: 'Inter', 'Manrope', system-ui, -apple-system, sans-serif;
+    color: #FFFFFF;
+    background-color: #050505;
+    overflow-x: hidden;
+  }
+}
+
+/* SYNC & AIRTEL ONE NEON TITLE EFFECT */
+.neon-title-airtel {
+  font-family: 'Inter', 'Poppins', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  position: relative;
+  text-shadow: 
+    0 0 10px rgba(255, 32, 32, 0.9),
+    0 0 25px rgba(230, 0, 0, 0.8),
+    0 0 50px rgba(230, 0, 0, 0.6),
+    0 0 80px rgba(230, 0, 0, 0.4);
+}
+
+.neon-title-chrome {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F5F5F5 45%, #E60000 65%, #FF2020 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 25px rgba(230, 0, 0, 0.8));
+}
+
+.neon-border-red {
+  border: 1px solid rgba(230, 0, 0, 0.5);
+  box-shadow: 0 0 15px rgba(230, 0, 0, 0.3), inset 0 0 15px rgba(230, 0, 0, 0.15);
+}
+
+.neon-badge-brackets {
+  position: relative;
+}
+.neon-badge-brackets::before {
+  content: '[';
+  margin-right: 0.35rem;
+  color: #FF2020;
+  font-weight: 700;
+  text-shadow: 0 0 8px #FF2020;
+}
+.neon-badge-brackets::after {
+  content: ']';
+  margin-left: 0.35rem;
+  color: #FF2020;
+  font-weight: 700;
+  text-shadow: 0 0 8px #FF2020;
+}
+
+/* Glassmorphism for Enterprise Dark Surfaces */
+.airtel-glass-card {
+  background: rgba(17, 17, 17, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.airtel-glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.airtel-glass-card-hover:hover {
+  border-color: rgba(230, 0, 0, 0.45);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8), 0 0 20px rgba(230, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Custom Sleek Scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2a2a2a;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #E60000;
+  box-shadow: 0 0 10px #FF2020;
+}

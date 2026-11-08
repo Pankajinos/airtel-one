@@ -1,0 +1,20 @@
+{
+  "name": "udyam-digital-root",
+  "version": "1.0.0",
+  "description": "Udyam Digital - Hackathon MVP Prototype for Indian SMB Telecom & Digital Transformation",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "udyam",
+    "hackathon",
+    "telecom",
+    "gemini",
+    "ocr",
+    "kyc"
+  ],
+  "author": "",
+  "license": "ISC"
+}

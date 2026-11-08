@@ -1,0 +1,22 @@
+{
+  "name": "udyam-server",
+  "version": "1.0.0",
+  "description": "Backend API for Udyam Digital - Hackathon MVP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cloudinary": "^2.11.0",
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.8",
+    "multer": "^1.4.5-lts.1",
+    "pdf-parse": "^2.4.5",
+    "tesseract.js": "^5.1.1"
+  }
+}

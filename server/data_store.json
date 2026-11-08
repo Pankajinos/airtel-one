@@ -1,0 +1,4385 @@
+{
+  "businessProfiles": [
+    {
+      "_id": "BP-1794055089507-pra49",
+      "createdAt": "2026-11-07T12:38:09.507Z",
+      "monthlyTelecomSpend": 3050,
+      "businessType": "Dental clinic",
+      "numSites": 1,
+      "employeeCount": 20,
+      "businessName": "Balaji Dental Care LLP",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "selectedProducts": [
+        {
+          "product_id": "P02",
+          "category": "Connectivity",
+          "product_name": "Biz Fibre 300",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "unit": "per site",
+          "price_min_inr_per_month": 1499,
+          "price_max_inr_per_month": 1799,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P23",
+          "category": "IoT & Physical",
+          "product_name": "Cloud CCTV",
+          "description": "HD camera with 30-day cloud recording and mobile app view",
+          "unit": "per camera",
+          "price_min_inr_per_month": 199,
+          "price_max_inr_per_month": 299,
+          "one_time_setup_inr": 1800,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 4,
+          "target_segments": "micro;multi;mfg"
+        }
+      ],
+      "monthlyTotal": 1698,
+      "setupTotal": 1800,
+      "selectionSavedAt": "2026-11-08T04:51:18.610Z",
+      "updatedAt": "2026-11-08T04:51:18.610Z"
+    },
+    {
+      "_id": "BP-1794055327057-8zya7",
+      "createdAt": "2026-11-07T12:42:07.057Z",
+      "businessName": "Saffron Bakers",
+      "businessType": "Bakery",
+      "segment": "Micro retail & services",
+      "employeeCount": 3,
+      "numSites": 1,
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "cityTier": 2,
+      "annualTurnoverBand": "1.5 - 5 cr",
+      "currentProvider": "Competitor B",
+      "currentInternet": "Mobile hotspot",
+      "monthlyTelecomSpend": 1350,
+      "problemsFaced": "Unreliable broadband and complex billing from current vendor",
+      "requirements": [
+        "CCTV and surveillance",
+        "Business communication"
+      ],
+      "gstin": "03PJNXS4821G1ZB",
+      "udyamNumber": "",
+      "leadId": "L00002"
+    },
+    {
+      "_id": "BP-1794058247549-or6e9",
+      "createdAt": "2026-11-07T13:30:47.549Z",
+      "businessName": "Balaji Dental Care LLP",
+      "businessType": "Apparel & Fashion Store",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Large Cloud Files & Scans"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Floor staff tablets suffer heavy lag when pulling up multi-megabyte high-resolution fabric catalog scans and custom embroidery design files from cloud storage due to low symmetrical broadband speeds.",
+        "Unsegmented store Wi-Fi allows walk-in shoppers and staff personal devices to access the same network as counter POS hardware, posing security risks and throttling billing network priority."
+      ],
+      "customProblem": "i am facing whatsapp limit problem",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Floor staff tablets suffer heavy lag when pulling up multi-megabyte high-resolution fabric catalog scans and custom embroidery design files from cloud storage due to low symmetrical broadband speeds.; Unsegmented store Wi-Fi allows walk-in shoppers and staff personal devices to access the same network as counter POS hardware, posing security risks and throttling billing network priority.; Custom: i am facing whatsapp limit problem",
+      "employeeCount": 10,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        }
+      ],
+      "monthlyTotal": 1499,
+      "setupTotal": 3500,
+      "selectionSavedAt": "2026-11-08T04:27:45.820Z",
+      "updatedAt": "2026-11-08T04:27:45.820Z"
+    },
+    {
+      "_id": "BP-1794059058392-pvgkx",
+      "createdAt": "2026-11-07T13:44:18.392Z",
+      "businessName": "Balaji Dental Care LLP",
+      "businessType": "Bakery & Cafe",
+      "scale": "2–5 Branches / Outlets",
+      "customerMode": "Phone Calls & WhatsApp Bookings",
+      "digitalTools": [
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras",
+        "WhatsApp for Orders / Inquiries"
+      ],
+      "teamDevices": "1–5 Devices (Micro)",
+      "selectedProblems": [
+        "Single shared smartphone per branch handling WhatsApp custom cake orders and incoming phone calls, causing dropped calls and unfulfilled order inquiries during peak evening hours without IVR or cloud routing",
+        "Lack of centralized inter-branch cloud connectivity forcing staff to manually coordinate fresh bakery dispatches from the central kitchen via WhatsApp, leading to stockouts of high-demand items",
+        "Data leak and payment fraud risks caused by staff handling customer phone numbers and manual UPI transaction screenshots on unsecured shared micro-devices without enterprise mobile device management"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Single shared smartphone per branch handling WhatsApp custom cake orders and incoming phone calls, causing dropped calls and unfulfilled order inquiries during peak evening hours without IVR or cloud routing; Lack of centralized inter-branch cloud connectivity forcing staff to manually coordinate fresh bakery dispatches from the central kitchen via WhatsApp, leading to stockouts of high-demand items; Data leak and payment fraud risks caused by staff handling customer phone numbers and manual UPI transaction screenshots on unsecured shared micro-devices without enterprise mobile device management",
+      "employeeCount": 4,
+      "numSites": 3
+    },
+    {
+      "_id": "BP-1794059571992-ija88",
+      "createdAt": "2026-11-07T13:52:51.992Z",
+      "businessName": "Balaji Dental Care LLP",
+      "businessType": "Dental clinic",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Tally ERP cloud sync freezing at the reception counter during peak evening exit hours due to asymmetric broadband upload limits, delaying patient invoice generation",
+        "UPI Soundbox and Card Machine payment confirmation delays over congested Wi-Fi, creating checkout bottlenecks for post-treatment patients",
+        "Missed patient appointment inquiries and follow-up reminders caused by relying on a single reception SIM smartphone instead of a cloud IVR and multi-agent WhatsApp API"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Tally ERP cloud sync freezing at the reception counter during peak evening exit hours due to asymmetric broadband upload limits, delaying patient invoice generation; UPI Soundbox and Card Machine payment confirmation delays over congested Wi-Fi, creating checkout bottlenecks for post-treatment patients; Missed patient appointment inquiries and follow-up reminders caused by relying on a single reception SIM smartphone instead of a cloud IVR and multi-agent WhatsApp API",
+      "employeeCount": 10,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P02",
+          "category": "Connectivity",
+          "product_name": "Biz Fibre 300",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "unit": "per site",
+          "price_min_inr_per_month": 1499,
+          "price_max_inr_per_month": 1799,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        }
+      ],
+      "monthlyTotal": 2499,
+      "setupTotal": 2000,
+      "selectionSavedAt": "2026-11-07T14:28:30.618Z",
+      "updatedAt": "2026-11-07T14:28:30.619Z"
+    },
+    {
+      "_id": "BP-TEST-001",
+      "createdAt": "2026-11-07T14:11:01.701Z",
+      "selectedProducts": [
+        {
+          "price_min_inr_per_month": 1499,
+          "product_id": "P02",
+          "product_name": "Biz Fibre 300"
+        },
+        {
+          "price_min_inr_per_month": 499,
+          "product_id": "P09",
+          "product_name": "Backup 4G/5G Failover"
+        }
+      ],
+      "monthlyTotal": 1998,
+      "setupTotal": 1500,
+      "selectionSavedAt": "2026-11-07T14:11:01.699Z"
+    },
+    {
+      "_id": "BP-1794061426957-opcyx",
+      "createdAt": "2026-11-07T14:23:46.957Z",
+      "updatedAt": "2026-11-07T14:23:46.958Z",
+      "scale": "1 Single Location / Store",
+      "monthlyTotal": 999,
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "setupTotal": 0,
+      "businessName": "Pankaj Enterprise Test",
+      "businessType": "Retail Store",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "CCTV Security Cameras"
+      ],
+      "selectedProducts": [
+        {
+          "price_min_inr_per_month": 999,
+          "product_id": "P01",
+          "product_name": "Biz Fibre 100"
+        }
+      ]
+    },
+    {
+      "_id": "BP-1794061806576-296pn",
+      "createdAt": "2026-11-07T14:30:06.576Z",
+      "updatedAt": "2026-11-07T14:30:06.576Z",
+      "businessName": "Balaji",
+      "businessType": "Bakery & Cafe",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "15+ Devices (High density)",
+      "selectedProblems": [
+        "Frequent Wi-Fi network congestion on a standard consumer router overwhelmed by 15+ active devices (Cloud POS, UPI Soundboxes, CCTV, staff phones), leading to intermittent device dropouts during peak evening cafe hours.",
+        "Delayed audio notifications on the UPI Soundbox and card terminal transaction latency during peak weekend footfall, forcing cashiers to manually verify payments and creating long counter queues.",
+        "Takeaway customer pre-orders and custom cake inquiries coming through a single unmanaged personal WhatsApp number, resulting in lost sales and slow response times during busy counter shifts."
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Frequent Wi-Fi network congestion on a standard consumer router overwhelmed by 15+ active devices (Cloud POS, UPI Soundboxes, CCTV, staff phones), leading to intermittent device dropouts during peak evening cafe hours.; Delayed audio notifications on the UPI Soundbox and card terminal transaction latency during peak weekend footfall, forcing cashiers to manually verify payments and creating long counter queues.; Takeaway customer pre-orders and custom cake inquiries coming through a single unmanaged personal WhatsApp number, resulting in lost sales and slow response times during busy counter shifts.",
+      "employeeCount": 20,
+      "numSites": 1
+    },
+    {
+      "_id": "BP-1794061861887-b085y",
+      "createdAt": "2026-11-07T14:31:01.887Z",
+      "updatedAt": "2026-11-07T14:31:01.887Z",
+      "businessName": "Balaji Dental Care LLP",
+      "businessType": "Dental clinic",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Cloud Dental Practice Management Software and Tally ERP sync freezing at the reception desk during peak evening hours due to lack of dedicated fiber dual-WAN failover",
+        "UPI Soundbox and POS card machine experiencing frequent payment confirmation lags at checkout because 6–15 staff and patient devices congest a single unsegmented consumer Wi-Fi router",
+        "Unscheduled fiber cuts causing complete operational freeze at the billing counter with no automated 4G/5G router failover for real-time UPI soundbox alerts and digital payment processing"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Cloud Dental Practice Management Software and Tally ERP sync freezing at the reception desk during peak evening hours due to lack of dedicated fiber dual-WAN failover; UPI Soundbox and POS card machine experiencing frequent payment confirmation lags at checkout because 6–15 staff and patient devices congest a single unsegmented consumer Wi-Fi router; Unscheduled fiber cuts causing complete operational freeze at the billing counter with no automated 4G/5G router failover for real-time UPI soundbox alerts and digital payment processing",
+      "employeeCount": 10,
+      "numSites": 1
+    },
+    {
+      "_id": "BP-1794062295896-wwov8",
+      "createdAt": "2026-11-07T14:38:15.896Z",
+      "updatedAt": "2026-11-07T14:38:15.896Z",
+      "businessName": "Balaji Dental Care",
+      "businessType": "Dental clinic",
+      "leadId": "L00001",
+      "selectedProblems": [
+        "Payment timeouts on UPI",
+        "CCTV live feed lagging"
+      ]
+    },
+    {
+      "_id": "BP-1794062490333-lgvt0",
+      "createdAt": "2026-11-07T14:41:30.333Z",
+      "updatedAt": "2026-11-07T14:41:30.333Z",
+      "businessName": "OvenFresh Delights",
+      "businessType": "Bakery & Cafe",
+      "selectedProblems": [
+        "Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover",
+        "UPI payment soundbox and card swipe machines take 15–20 seconds to confirm payment on crowded guest Wi-Fi"
+      ]
+    },
+    {
+      "_id": "BP-1794062757634-ar866",
+      "createdAt": "2026-11-07T14:45:57.634Z",
+      "updatedAt": "2026-11-07T14:45:57.634Z",
+      "businessName": "Balaji",
+      "businessType": "Bakery & Cafe",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "1–5 Devices (Micro)",
+      "selectedProblems": [
+        "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover",
+        "Customer inquiries and appointment calls missed on single busy telephone line",
+        "High-volume festival pre-orders on WhatsApp scattered across staff phones without multi-agent dashboard",
+        "Customers frequently requesting Wi-Fi password, exposing back-office billing network to security breaches",
+        "Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover; Customer inquiries and appointment calls missed on single busy telephone line; High-volume festival pre-orders on WhatsApp scattered across staff phones without multi-agent dashboard; Customers frequently requesting Wi-Fi password, exposing back-office billing network to security breaches; Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover",
+      "employeeCount": 4,
+      "numSites": 1
+    },
+    {
+      "_id": "L00001",
+      "createdAt": "2026-11-07T14:52:06.930Z",
+      "updatedAt": "2026-11-07T14:52:06.930Z",
+      "businessName": "Balaji",
+      "businessType": "Bakery & Cafe",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "1–5 Devices (Micro)",
+      "selectedProblems": [
+        "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover",
+        "Customer inquiries and appointment calls missed on single busy telephone line",
+        "High-volume festival pre-orders on WhatsApp scattered across staff phones without multi-agent dashboard",
+        "Customers frequently requesting Wi-Fi password, exposing back-office billing network to security breaches",
+        "Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover; Customer inquiries and appointment calls missed on single busy telephone line; High-volume festival pre-orders on WhatsApp scattered across staff phones without multi-agent dashboard; Customers frequently requesting Wi-Fi password, exposing back-office billing network to security breaches; Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover",
+      "employeeCount": 4,
+      "numSites": 1
+    },
+    {
+      "_id": "L00001",
+      "createdAt": "2026-11-07T14:52:22.536Z",
+      "updatedAt": "2026-11-07T14:52:22.536Z",
+      "businessName": "Balaji",
+      "businessType": "Bakery & Cafe",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "1–5 Devices (Micro)",
+      "selectedProblems": [
+        "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover",
+        "Customer inquiries and appointment calls missed on single busy telephone line",
+        "High-volume festival pre-orders on WhatsApp scattered across staff phones without multi-agent dashboard",
+        "Customers frequently requesting Wi-Fi password, exposing back-office billing network to security breaches",
+        "Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover; Customer inquiries and appointment calls missed on single busy telephone line; High-volume festival pre-orders on WhatsApp scattered across staff phones without multi-agent dashboard; Customers frequently requesting Wi-Fi password, exposing back-office billing network to security breaches; Cloud POS billing registers crash during peak evening footfall due to lack of automatic 4G/5G failover",
+      "employeeCount": 4,
+      "numSites": 1
+    },
+    {
+      "_id": "L00001",
+      "createdAt": "2026-11-07T14:54:27.104Z",
+      "updatedAt": "2026-11-07T14:54:27.104Z",
+      "businessName": "Balaji Dental Care LLP",
+      "businessType": "Dental clinic",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover",
+        "Customer inquiries and appointment calls missed on single busy telephone line",
+        "CCTV surveillance cameras at reception and sterilisation rooms drop remote smartphone video feeds"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover; Customer inquiries and appointment calls missed on single busy telephone line; CCTV surveillance cameras at reception and sterilisation rooms drop remote smartphone video feeds",
+      "employeeCount": 10,
+      "numSites": 1
+    },
+    {
+      "_id": "L00001",
+      "createdAt": "2026-11-07T20:20:01.824Z",
+      "updatedAt": "2026-11-07T20:20:01.824Z",
+      "businessName": "Balaji Dental Care LLP",
+      "businessType": "Dental clinic",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover",
+        "Customer inquiries and appointment calls missed on single busy telephone line",
+        "High-resolution digital OPG X-rays & 3D dental scans take minutes to upload to cloud storage without high upload speeds",
+        "Patient recall reminders and post-procedure checkups handled manually from personal doctor phones instead of verified WhatsApp API",
+        "Patient confidential treatment records and prescription history vulnerable to ransomware without endpoint security"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "32TTNXB7384T1ZW",
+      "udyamNumber": "UDYAM-KL-00-3078801",
+      "leadId": "L00001",
+      "city": "Kochi",
+      "state": "Kerala",
+      "problemsFaced": "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover; Customer inquiries and appointment calls missed on single busy telephone line; High-resolution digital OPG X-rays & 3D dental scans take minutes to upload to cloud storage without high upload speeds; Patient recall reminders and post-procedure checkups handled manually from personal doctor phones instead of verified WhatsApp API; Patient confidential treatment records and prescription history vulnerable to ransomware without endpoint security",
+      "employeeCount": 10,
+      "numSites": 1
+    },
+    {
+      "_id": "L00115",
+      "createdAt": "2026-11-08T04:49:29.030Z",
+      "updatedAt": "2026-11-08T04:49:30.017Z",
+      "businessName": "Saffron Unisex Salon",
+      "businessType": "Unisex Salon & Spa",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras",
+        "WhatsApp for Orders / Inquiries"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+        "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+        "Clients in waiting lounge and styling chairs requesting Wi-Fi, overloading billing counter bandwidth",
+        "Frequent broadband downtime during peak business hours causing payment and billing freeze",
+        "Official company emails sent from personal @gmail addresses damaging business credibility"
+      ],
+      "customProblem": "",
+      "requirements": [
+        "High-speed internet",
+        "Business communication"
+      ],
+      "gstin": "08YKZXS5189L1ZO",
+      "udyamNumber": "UDYAM-RJ-00-6577157",
+      "leadId": "L00115",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Clients in waiting lounge and styling chairs requesting Wi-Fi, overloading billing counter bandwidth; Frequent broadband downtime during peak business hours causing payment and billing freeze; Official company emails sent from personal @gmail addresses damaging business credibility",
+      "employeeCount": 10,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P02",
+          "category": "Connectivity",
+          "product_name": "Biz Fibre 300",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "unit": "per site",
+          "price_min_inr_per_month": 1499,
+          "price_max_inr_per_month": 1799,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P16",
+          "category": "Cloud & Productivity",
+          "product_name": "Cloud Email & Office Suite",
+          "description": "Business email on own domain, documents, video meetings",
+          "unit": "per user",
+          "price_min_inr_per_month": 125,
+          "price_max_inr_per_month": 150,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "",
+          "typical_install_days": 1,
+          "target_segments": "prof;multi;mfg"
+        }
+      ],
+      "monthlyTotal": 3123,
+      "setupTotal": 3500,
+      "selectionSavedAt": "2026-11-08T04:49:30.017Z"
+    },
+    {
+      "_id": "BP-1794115584917",
+      "createdAt": "2026-11-08T05:26:24.944Z",
+      "updatedAt": "2026-11-08T05:48:37.132Z",
+      "businessName": "karan",
+      "businessType": "Unisex Salon & Spa",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Phone Calls & WhatsApp Bookings",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "Video Meetings & Remote Work"
+      ],
+      "teamDevices": "1–5 Devices (Micro)",
+      "selectedProblems": [
+        "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+        "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+        "Lack of plug-and-play high-speed wireless broadband (5G AirFiber) when wired fiber installation is delayed or non-feasible"
+      ],
+      "customProblem": "",
+      "requirements": [],
+      "gstin": "",
+      "udyamNumber": "",
+      "leadId": "",
+      "city": "",
+      "state": "",
+      "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Lack of plug-and-play high-speed wireless broadband (5G AirFiber) when wired fiber installation is delayed or non-feasible",
+      "employeeCount": 4,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P02",
+          "category": "Connectivity",
+          "product_name": "Biz Fibre 300",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "unit": "per site",
+          "price_min_inr_per_month": 1499,
+          "price_max_inr_per_month": 1799,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        }
+      ],
+      "monthlyTotal": 2998,
+      "setupTotal": 3500,
+      "selectionSavedAt": "2026-11-08T05:48:37.132Z"
+    },
+    {
+      "_id": "BP-1794120831053",
+      "createdAt": "2026-11-08T06:53:51.099Z",
+      "updatedAt": "2026-11-08T06:53:57.369Z",
+      "businessName": "Saffron Unisex Saloon",
+      "businessType": "Unisex Salon & Spa",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "1–5 Devices (Micro)",
+      "selectedProblems": [
+        "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+        "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+        "Clients in waiting lounge and styling chairs requesting Wi-Fi, overloading billing counter bandwidth"
+      ],
+      "customProblem": "",
+      "requirements": [],
+      "gstin": "",
+      "udyamNumber": "",
+      "leadId": "",
+      "city": "",
+      "state": "",
+      "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Clients in waiting lounge and styling chairs requesting Wi-Fi, overloading billing counter bandwidth",
+      "employeeCount": 4,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P02",
+          "category": "Connectivity",
+          "product_name": "Biz Fibre 300",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "unit": "per site",
+          "price_min_inr_per_month": 1499,
+          "price_max_inr_per_month": 1799,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        }
+      ],
+      "monthlyTotal": 2998,
+      "setupTotal": 3500,
+      "selectionSavedAt": "2026-11-08T06:53:57.369Z"
+    },
+    {
+      "_id": "BP-1794137997802",
+      "createdAt": "2026-11-08T11:39:57.846Z",
+      "updatedAt": "2026-11-08T11:49:47.204Z",
+      "businessName": "Saffron unisex salon",
+      "businessType": "Unisex Salon & Spa",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "UPI Soundbox & Card Machine",
+        "Cloud POS / Tally ERP",
+        "WhatsApp for Orders / Inquiries",
+        "CCTV Security Cameras"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+        "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+        "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush"
+      ],
+      "customProblem": "",
+      "requirements": [],
+      "gstin": "",
+      "udyamNumber": "",
+      "leadId": "",
+      "city": "",
+      "state": "",
+      "problemsFaced": "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API; Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+      "employeeCount": 10,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P13",
+          "category": "Communication",
+          "product_name": "Toll-free Number",
+          "description": "1800 number routed to mobile or cloud telephony",
+          "unit": "per number",
+          "price_min_inr_per_month": 1500,
+          "price_max_inr_per_month": 2000,
+          "one_time_setup_inr": 1000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        }
+      ],
+      "monthlyTotal": 2999,
+      "setupTotal": 4500,
+      "selectionSavedAt": "2026-11-08T11:49:47.204Z"
+    },
+    {
+      "_id": "BP-1794140088306",
+      "createdAt": "2026-11-08T12:14:48.338Z",
+      "updatedAt": "2026-11-08T12:14:56.419Z",
+      "businessName": "Saffron Unisex salon",
+      "businessType": "Unisex Salon & Spa",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras",
+        "WhatsApp for Orders / Inquiries"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+        "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+        "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API"
+      ],
+      "customProblem": "",
+      "requirements": [],
+      "gstin": "",
+      "udyamNumber": "",
+      "leadId": "",
+      "city": "",
+      "state": "",
+      "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+      "employeeCount": 10,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P15",
+          "category": "Communication",
+          "product_name": "WhatsApp Business API Starter",
+          "description": "Verified WhatsApp channel, catalogue, 1,000 conversations a month",
+          "unit": "per account",
+          "price_min_inr_per_month": 999,
+          "price_max_inr_per_month": 1499,
+          "one_time_setup_inr": 0,
+          "min_contract_months": 3,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "",
+          "typical_install_days": 3,
+          "target_segments": "micro;prof;multi"
+        }
+      ],
+      "monthlyTotal": 2498,
+      "setupTotal": 3500,
+      "selectionSavedAt": "2026-11-08T12:14:56.419Z"
+    },
+    {
+      "_id": "BP-1794141417681",
+      "createdAt": "2026-11-08T12:36:57.715Z",
+      "updatedAt": "2026-11-08T13:09:03.970Z",
+      "businessName": "Saffron Unisex Salon",
+      "businessType": "Unisex Salon & Spa",
+      "scale": "1 Single Location / Store",
+      "customerMode": "Walk-in Footfall & Counter Billing",
+      "digitalTools": [
+        "Cloud POS / Tally ERP",
+        "UPI Soundbox & Card Machine",
+        "CCTV Security Cameras",
+        "WhatsApp for Orders / Inquiries"
+      ],
+      "teamDevices": "6–15 Devices (Growing team)",
+      "selectedProblems": [
+        "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+        "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+        "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API"
+      ],
+      "customProblem": "",
+      "requirements": [],
+      "gstin": "",
+      "udyamNumber": "",
+      "leadId": "",
+      "city": "",
+      "state": "",
+      "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+      "employeeCount": 10,
+      "numSites": 1,
+      "selectedProducts": [
+        {
+          "product_id": "P09",
+          "category": "Connectivity",
+          "product_name": "Backup 4G/5G Failover",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "unit": "per site",
+          "price_min_inr_per_month": 499,
+          "price_max_inr_per_month": 599,
+          "one_time_setup_inr": 1500,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "N",
+          "requires_one_of": "P01|P02|P03|P05|P06",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        },
+        {
+          "product_id": "P12",
+          "category": "Communication",
+          "product_name": "Cloud Telephony / SIP",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "unit": "per channel",
+          "price_min_inr_per_month": 1000,
+          "price_max_inr_per_month": 1500,
+          "one_time_setup_inr": 2000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 3,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "P01|P02|P03|P04|P05|P06",
+          "typical_install_days": 5,
+          "target_segments": "prof;multi"
+        },
+        {
+          "product_id": "P13",
+          "category": "Communication",
+          "product_name": "Toll-free Number",
+          "description": "1800 number routed to mobile or cloud telephony",
+          "unit": "per number",
+          "price_min_inr_per_month": 1500,
+          "price_max_inr_per_month": 2000,
+          "one_time_setup_inr": 1000,
+          "min_contract_months": 12,
+          "available_city_tiers": "1;2",
+          "min_employees": 1,
+          "min_sites": 1,
+          "requires_gstin": "Y",
+          "requires_one_of": "",
+          "typical_install_days": 3,
+          "target_segments": "multi;prof"
+        }
+      ],
+      "monthlyTotal": 2999,
+      "setupTotal": 4500,
+      "selectionSavedAt": "2026-11-08T13:09:03.970Z"
+    }
+  ],
+  "orders": [
+    {
+      "_id": "ORD-2026-539614",
+      "orderId": "ORD-2026-539614",
+      "createdAt": "2026-11-07T12:38:09.535Z",
+      "orderStatus": "Confirmed",
+      "paymentStatus": "PAID (DEMO)",
+      "businessProfile": {
+        "_id": "BP-1794055089507-pra49",
+        "createdAt": "2026-11-07T12:38:09.507Z",
+        "monthlyTelecomSpend": 3050,
+        "businessType": "Dental clinic",
+        "numSites": 1,
+        "employeeCount": 20,
+        "businessName": "Balaji Dental Care LLP",
+        "requirements": [
+          "High-speed internet",
+          "Business communication"
+        ]
+      },
+      "items": [
+        {
+          "product_id": "P03",
+          "product_name": "Biz Fibre 1G",
+          "category": "Connectivity",
+          "description": "Business fibre broadband, 1 Gbps, priority support",
+          "price_min_inr_per_month": 3999,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 7,
+          "expectedDate": "2026-07-22",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 1,
+          "status": "Technician Assigned",
+          "updatedAt": "2026-11-07T12:38:09.546Z"
+        },
+        {
+          "product_id": "P15",
+          "product_name": "WhatsApp Business API Starter",
+          "category": "Communication",
+          "description": "Verified WhatsApp channel, catalogue, 1,000 conversations a month",
+          "price_min_inr_per_month": 999,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Tenant Provisioning",
+              "desc": "Cloud workspace initialized"
+            },
+            {
+              "name": "Domain / API Setup",
+              "desc": "DNS or WhatsApp Meta token configured"
+            },
+            {
+              "name": "Licenses Assigned",
+              "desc": "User seats allocated to organization"
+            },
+            {
+              "name": "Subscription Active",
+              "desc": "Cloud credentials sent to admin"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Tenant Provisioning"
+        },
+        {
+          "product_id": "P07",
+          "product_name": "Business Postpaid 299",
+          "category": "Connectivity",
+          "description": "Business mobile line, 50 GB data, unlimited calls",
+          "price_min_inr_per_month": 299,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 1,
+          "expectedDate": "2026-07-16",
+          "stages": [
+            {
+              "name": "SIM Allocation",
+              "desc": "Number allotted and ICCID generated"
+            },
+            {
+              "name": "Dispatched",
+              "desc": "Shipped via express courier partner"
+            },
+            {
+              "name": "Delivered",
+              "desc": "Package delivered to business address"
+            },
+            {
+              "name": "Activated",
+              "desc": "Tele-verification complete and line active"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "SIM Allocation"
+        },
+        {
+          "product_id": "P20",
+          "product_name": "Endpoint Security",
+          "category": "Security",
+          "description": "Antivirus and ransomware protection for PCs and phones",
+          "price_min_inr_per_month": 99,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 1,
+          "expectedDate": "2026-07-16",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Device Allocation"
+        }
+      ],
+      "monthlyTotal": 5396,
+      "setupTotal": 0,
+      "kycRecordId": "KYC-1794055089528-3p9mv",
+      "orderDate": "2026-07-15"
+    },
+    {
+      "_id": "ORD-2026-692702",
+      "orderId": "ORD-2026-692702",
+      "createdAt": "2026-11-07T12:44:48.474Z",
+      "orderStatus": "Confirmed",
+      "paymentStatus": "PAID (DEMO)",
+      "businessProfile": {
+        "_id": "BP-1794055327057-8zya7",
+        "createdAt": "2026-11-07T12:42:07.057Z",
+        "businessName": "Saffron Bakers",
+        "businessType": "Bakery",
+        "segment": "Micro retail & services",
+        "employeeCount": 3,
+        "numSites": 1,
+        "city": "Ludhiana",
+        "state": "Punjab",
+        "cityTier": 2,
+        "annualTurnoverBand": "1.5 - 5 cr",
+        "currentProvider": "Competitor B",
+        "currentInternet": "Mobile hotspot",
+        "monthlyTelecomSpend": 1350,
+        "problemsFaced": "Unreliable broadband and complex billing from current vendor",
+        "requirements": [
+          "CCTV and surveillance",
+          "Business communication"
+        ],
+        "gstin": "03PJNXS4821G1ZB",
+        "udyamNumber": "",
+        "leadId": "L00002"
+      },
+      "items": [
+        {
+          "product_id": "P02",
+          "product_name": "Biz Fibre 300",
+          "category": "Connectivity",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "price_min_inr_per_month": 1499,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 1,
+          "status": "Technician Assigned",
+          "updatedAt": "2026-11-07T12:45:11.469Z"
+        },
+        {
+          "product_id": "P23",
+          "product_name": "Cloud CCTV",
+          "category": "IoT & Physical",
+          "description": "HD camera with 30-day cloud recording and mobile app view",
+          "price_min_inr_per_month": 199,
+          "one_time_setup_inr": 1800,
+          "typical_install_days": 4,
+          "expectedDate": "2026-07-19",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Device Allocation"
+        },
+        {
+          "product_id": "P15",
+          "product_name": "WhatsApp Business API Starter",
+          "category": "Communication",
+          "description": "Verified WhatsApp channel, catalogue, 1,000 conversations a month",
+          "price_min_inr_per_month": 999,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Tenant Provisioning",
+              "desc": "Cloud workspace initialized"
+            },
+            {
+              "name": "Domain / API Setup",
+              "desc": "DNS or WhatsApp Meta token configured"
+            },
+            {
+              "name": "Licenses Assigned",
+              "desc": "User seats allocated to organization"
+            },
+            {
+              "name": "Subscription Active",
+              "desc": "Cloud credentials sent to admin"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Tenant Provisioning"
+        },
+        {
+          "product_id": "P05",
+          "product_name": "Internet Leased Line 20",
+          "category": "Connectivity",
+          "description": "Dedicated 1:1 internet, 20 Mbps, 99.5% SLA",
+          "price_min_inr_per_month": 8000,
+          "one_time_setup_inr": 10000,
+          "typical_install_days": 21,
+          "expectedDate": "2026-08-05",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Feasibility Check"
+        }
+      ],
+      "monthlyTotal": 10697,
+      "setupTotal": 11800,
+      "kycRecordId": "KYC-1794055473987-9trej",
+      "orderDate": "2026-07-15"
+    },
+    {
+      "_id": "ORD-2026-575093",
+      "orderId": "ORD-2026-575093",
+      "createdAt": "2026-11-07T20:54:02.658Z",
+      "updatedAt": "2026-11-07T20:59:01.681Z",
+      "orderStatus": "Fulfilled",
+      "paymentStatus": "PAID (DEMO)",
+      "businessProfile": {
+        "_id": "L00001",
+        "businessName": "Balaji Dental Care LLP",
+        "businessType": "Dental clinic",
+        "scale": "1 Single Location / Store",
+        "customerMode": "Walk-in Footfall & Counter Billing",
+        "digitalTools": [
+          "Cloud POS / Tally ERP",
+          "UPI Soundbox & Card Machine",
+          "CCTV Security Cameras"
+        ],
+        "teamDevices": "6–15 Devices (Growing team)",
+        "selectedProblems": [
+          "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover",
+          "Customer inquiries and appointment calls missed on single busy telephone line",
+          "High-resolution digital OPG X-rays & 3D dental scans take minutes to upload to cloud storage without high upload speeds",
+          "Patient recall reminders and post-procedure checkups handled manually from personal doctor phones instead of verified WhatsApp API",
+          "Patient confidential treatment records and prescription history vulnerable to ransomware without endpoint security"
+        ],
+        "customProblem": "",
+        "requirements": [
+          "High-speed internet",
+          "Business communication"
+        ],
+        "gstin": "32TTNXB7384T1ZW",
+        "udyamNumber": "UDYAM-KL-00-3078801",
+        "leadId": "L00001",
+        "city": "Kochi",
+        "state": "Kerala",
+        "problemsFaced": "Billing terminals and UPI card machines freeze during peak hours due to lack of 4G/5G failover; Customer inquiries and appointment calls missed on single busy telephone line; High-resolution digital OPG X-rays & 3D dental scans take minutes to upload to cloud storage without high upload speeds; Patient recall reminders and post-procedure checkups handled manually from personal doctor phones instead of verified WhatsApp API; Patient confidential treatment records and prescription history vulnerable to ransomware without endpoint security",
+        "employeeCount": 10,
+        "numSites": 1
+      },
+      "items": [
+        {
+          "product_id": "P09",
+          "product_name": "Backup 4G/5G Failover",
+          "category": "Connectivity",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "price_min_inr_per_month": 499,
+          "one_time_setup_inr": 1500,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "Service Activated",
+          "updatedAt": "2026-11-07T20:57:51.493Z"
+        },
+        {
+          "product_id": "P12",
+          "product_name": "Cloud Telephony / SIP",
+          "category": "Communication",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "price_min_inr_per_month": 1000,
+          "one_time_setup_inr": 2000,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-07T20:58:14.636Z"
+        },
+        {
+          "product_id": "P02",
+          "product_name": "Biz Fibre 300",
+          "category": "Connectivity",
+          "description": "Business fibre broadband, 300 Mbps, unlimited data, static IP optional",
+          "price_min_inr_per_month": 1499,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "Service Activated",
+          "updatedAt": "2026-11-07T20:58:39.293Z"
+        },
+        {
+          "product_id": "P20",
+          "product_name": "Endpoint Security",
+          "category": "Security",
+          "description": "Antivirus and ransomware protection for PCs and phones",
+          "price_min_inr_per_month": 99,
+          "one_time_setup_inr": 0,
+          "typical_install_days": 1,
+          "expectedDate": "2026-07-16",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-07T20:59:01.555Z"
+        }
+      ],
+      "monthlyTotal": 3097,
+      "setupTotal": 3500,
+      "kycRecordId": "KYC-1794084825972-4dg4l",
+      "orderDate": "2026-07-15"
+    },
+    {
+      "_id": "ORD-2026-948162",
+      "orderId": "ORD-2026-948162",
+      "createdAt": "2026-11-08T11:53:45.216Z",
+      "updatedAt": "2026-11-08T11:55:28.493Z",
+      "orderStatus": "Fulfilled",
+      "paymentStatus": "PAID",
+      "businessProfile": {
+        "_id": "BP-1794137997802",
+        "businessName": "Saffron unisex salon",
+        "businessType": "Unisex Salon & Spa",
+        "scale": "1 Single Location / Store",
+        "customerMode": "Walk-in Footfall & Counter Billing",
+        "digitalTools": [
+          "UPI Soundbox & Card Machine",
+          "Cloud POS / Tally ERP",
+          "WhatsApp for Orders / Inquiries",
+          "CCTV Security Cameras"
+        ],
+        "teamDevices": "6–15 Devices (Growing team)",
+        "selectedProblems": [
+          "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+          "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+          "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush"
+        ],
+        "customProblem": "",
+        "requirements": [],
+        "gstin": "",
+        "udyamNumber": "",
+        "leadId": "",
+        "city": "",
+        "state": "",
+        "problemsFaced": "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API; Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+        "employeeCount": 10,
+        "numSites": 1
+      },
+      "items": [
+        {
+          "product_id": "P09",
+          "product_name": "Backup 4G/5G Failover",
+          "category": "Connectivity",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "price_min_inr_per_month": 499,
+          "one_time_setup_inr": 1500,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "Service Activated",
+          "updatedAt": "2026-11-08T11:54:39.317Z"
+        },
+        {
+          "product_id": "P12",
+          "product_name": "Cloud Telephony / SIP",
+          "category": "Communication",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "price_min_inr_per_month": 1000,
+          "one_time_setup_inr": 2000,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-08T11:55:03.342Z"
+        },
+        {
+          "product_id": "P13",
+          "product_name": "Toll-free Number",
+          "category": "Communication",
+          "description": "1800 number routed to mobile or cloud telephony",
+          "price_min_inr_per_month": 1500,
+          "one_time_setup_inr": 1000,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-08T11:55:28.455Z"
+        }
+      ],
+      "monthlyTotal": 2999,
+      "setupTotal": 4500,
+      "kycRecordId": "KYC-1794138800557-rq02r",
+      "orderDate": "2026-07-15"
+    },
+    {
+      "_id": "ORD-2026-269506",
+      "orderId": "ORD-2026-269506",
+      "createdAt": "2026-11-08T13:13:23.694Z",
+      "updatedAt": "2026-11-08T13:14:55.243Z",
+      "orderStatus": "Fulfilled",
+      "paymentStatus": "PAID",
+      "businessProfile": {
+        "_id": "BP-1794141417681",
+        "businessName": "Saffron Unisex Salon",
+        "businessType": "Unisex Salon & Spa",
+        "scale": "1 Single Location / Store",
+        "customerMode": "Walk-in Footfall & Counter Billing",
+        "digitalTools": [
+          "Cloud POS / Tally ERP",
+          "UPI Soundbox & Card Machine",
+          "CCTV Security Cameras",
+          "WhatsApp for Orders / Inquiries"
+        ],
+        "teamDevices": "6–15 Devices (Growing team)",
+        "selectedProblems": [
+          "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+          "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+          "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API"
+        ],
+        "customProblem": "",
+        "requirements": [],
+        "gstin": "",
+        "udyamNumber": "",
+        "leadId": "",
+        "city": "",
+        "state": "",
+        "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+        "employeeCount": 10,
+        "numSites": 1
+      },
+      "items": [
+        {
+          "product_id": "P09",
+          "product_name": "Backup 4G/5G Failover",
+          "category": "Connectivity",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "price_min_inr_per_month": 499,
+          "one_time_setup_inr": 1500,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "Service Activated",
+          "updatedAt": "2026-11-08T13:14:07.193Z"
+        },
+        {
+          "product_id": "P12",
+          "product_name": "Cloud Telephony / SIP",
+          "category": "Communication",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "price_min_inr_per_month": 1000,
+          "one_time_setup_inr": 2000,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-08T13:14:31.196Z"
+        },
+        {
+          "product_id": "P13",
+          "product_name": "Toll-free Number",
+          "category": "Communication",
+          "description": "1800 number routed to mobile or cloud telephony",
+          "price_min_inr_per_month": 1500,
+          "one_time_setup_inr": 1000,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-08T13:14:55.204Z"
+        }
+      ],
+      "monthlyTotal": 2999,
+      "setupTotal": 4500,
+      "kycRecordId": "KYC-1794143575857-il57u",
+      "orderDate": "2026-07-15"
+    },
+    {
+      "_id": "ORD-2026-414368",
+      "orderId": "ORD-2026-414368",
+      "createdAt": "2026-11-08T13:15:51.609Z",
+      "updatedAt": "2026-11-08T13:15:51.609Z",
+      "orderStatus": "Confirmed",
+      "paymentStatus": "PAID",
+      "businessProfile": {
+        "_id": "BP-1794141417681",
+        "businessName": "Saffron Unisex Salon",
+        "businessType": "Unisex Salon & Spa",
+        "scale": "1 Single Location / Store",
+        "customerMode": "Walk-in Footfall & Counter Billing",
+        "digitalTools": [
+          "Cloud POS / Tally ERP",
+          "UPI Soundbox & Card Machine",
+          "CCTV Security Cameras",
+          "WhatsApp for Orders / Inquiries"
+        ],
+        "teamDevices": "6–15 Devices (Growing team)",
+        "selectedProblems": [
+          "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+          "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+          "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API"
+        ],
+        "customProblem": "",
+        "requirements": [],
+        "gstin": "",
+        "udyamNumber": "",
+        "leadId": "",
+        "city": "",
+        "state": "",
+        "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+        "employeeCount": 10,
+        "numSites": 1
+      },
+      "items": [
+        {
+          "product_id": "P09",
+          "product_name": "Backup 4G/5G Failover",
+          "category": "Connectivity",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "price_min_inr_per_month": 499,
+          "one_time_setup_inr": 1500,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Feasibility Check"
+        },
+        {
+          "product_id": "P12",
+          "product_name": "Cloud Telephony / SIP",
+          "category": "Communication",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "price_min_inr_per_month": 1000,
+          "one_time_setup_inr": 2000,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Device Allocation"
+        },
+        {
+          "product_id": "P13",
+          "product_name": "Toll-free Number",
+          "category": "Communication",
+          "description": "1800 number routed to mobile or cloud telephony",
+          "price_min_inr_per_month": 1500,
+          "one_time_setup_inr": 1000,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 0,
+          "status": "Device Allocation"
+        }
+      ],
+      "monthlyTotal": 2999,
+      "setupTotal": 4500,
+      "kycRecordId": "KYC-1794143575857-il57u",
+      "orderDate": "2026-07-15"
+    },
+    {
+      "_id": "ORD-2026-702199",
+      "orderId": "ORD-2026-702199",
+      "createdAt": "2026-11-08T13:16:46.473Z",
+      "updatedAt": "2026-11-08T13:18:17.935Z",
+      "orderStatus": "Fulfilled",
+      "paymentStatus": "PAID",
+      "businessProfile": {
+        "_id": "BP-1794141417681",
+        "businessName": "Saffron Unisex Salon",
+        "businessType": "Unisex Salon & Spa",
+        "scale": "1 Single Location / Store",
+        "customerMode": "Walk-in Footfall & Counter Billing",
+        "digitalTools": [
+          "Cloud POS / Tally ERP",
+          "UPI Soundbox & Card Machine",
+          "CCTV Security Cameras",
+          "WhatsApp for Orders / Inquiries"
+        ],
+        "teamDevices": "6–15 Devices (Growing team)",
+        "selectedProblems": [
+          "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush",
+          "UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops",
+          "Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API"
+        ],
+        "customProblem": "",
+        "requirements": [],
+        "gstin": "",
+        "udyamNumber": "",
+        "leadId": "",
+        "city": "",
+        "state": "",
+        "problemsFaced": "Appointment booking calls clashing on front desk phone during busy bridal and weekend styling rush; UPI payment soundbox and billing POS freezing at reception when consumer broadband link drops; Appointment confirmations and salon reminders handled manually on personal staff numbers instead of verified WhatsApp API",
+        "employeeCount": 10,
+        "numSites": 1
+      },
+      "items": [
+        {
+          "product_id": "P09",
+          "product_name": "Backup 4G/5G Failover",
+          "category": "Connectivity",
+          "description": "Automatic failover router with data SIM for when the main link is down",
+          "price_min_inr_per_month": 499,
+          "one_time_setup_inr": 1500,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Feasibility Check",
+              "desc": "Last-mile survey completed"
+            },
+            {
+              "name": "Technician Assigned",
+              "desc": "Field engineer appointed for visit"
+            },
+            {
+              "name": "Wiring & ONT Setup",
+              "desc": "Fibre line pulled and router installed"
+            },
+            {
+              "name": "Service Activated",
+              "desc": "Line speed verified and live"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "Service Activated",
+          "updatedAt": "2026-11-08T13:17:29.897Z"
+        },
+        {
+          "product_id": "P12",
+          "product_name": "Cloud Telephony / SIP",
+          "category": "Communication",
+          "description": "Business phone lines over internet with IVR, call recording",
+          "price_min_inr_per_month": 1000,
+          "one_time_setup_inr": 2000,
+          "typical_install_days": 5,
+          "expectedDate": "2026-07-20",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-08T13:17:53.887Z"
+        },
+        {
+          "product_id": "P13",
+          "product_name": "Toll-free Number",
+          "category": "Communication",
+          "description": "1800 number routed to mobile or cloud telephony",
+          "price_min_inr_per_month": 1500,
+          "one_time_setup_inr": 1000,
+          "typical_install_days": 3,
+          "expectedDate": "2026-07-18",
+          "stages": [
+            {
+              "name": "Device Allocation",
+              "desc": "Hardware serialized and bench-tested"
+            },
+            {
+              "name": "Dispatched to Site",
+              "desc": "In transit with installation team"
+            },
+            {
+              "name": "Mounting & Setup",
+              "desc": "Hardware mounted and paired with cloud"
+            },
+            {
+              "name": "System Activated",
+              "desc": "Live monitoring verified and active"
+            }
+          ],
+          "currentStageIndex": 3,
+          "status": "System Activated",
+          "updatedAt": "2026-11-08T13:18:17.899Z"
+        }
+      ],
+      "monthlyTotal": 2999,
+      "setupTotal": 4500,
+      "kycRecordId": "KYC-1794143575857-il57u",
+      "orderDate": "2026-07-15"
+    }
+  ],
+  "kycRecords": [
+    {
+      "_id": "KYC-1794054768008-vvd5p",
+      "createdAt": "2026-11-07T12:32:48.009Z",
+      "submittedData": {
+        "gstin": "32TTNXB7384T1ZW",
+        "udyamNumber": "UDYAM-KL-00-3078801",
+        "businessName": "Balaji Dental Care LLP"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "32TTNXB7384T1ZW",
+          "legal_name": "Balaji Dental Care LLP",
+          "trade_name": "Balaji Dental Care LLP",
+          "constitution": "Limited Liability Partnership",
+          "principal_place_of_business": "Shop/Unit 164, Station Road, Kochi, Kerala - 289398",
+          "state": "Kerala",
+          "registration_date": "2020-06-04",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-KL-00-3078801",
+          "enterprise_name": "Balaji Dental Care LLP",
+          "enterprise_type": "Micro",
+          "major_activity": "Services",
+          "nic_description": "Dental clinic",
+          "state": "Kerala",
+          "city": "Kochi",
+          "date_of_registration": "2023-12-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Balaji Dental Care LLP",
+            "tradeName": "Balaji Dental Care LLP",
+            "status": "Active",
+            "address": "Shop/Unit 164, Station Road, Kochi, Kerala - 289398",
+            "state": "Kerala"
+          },
+          "udyam": {
+            "enterpriseName": "Balaji Dental Care LLP",
+            "enterpriseType": "Micro",
+            "activity": "Services",
+            "city": "Kochi",
+            "state": "Kerala"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794055089528-3p9mv",
+      "createdAt": "2026-11-07T12:38:09.528Z",
+      "submittedData": {
+        "gstin": "32TTNXB7384T1ZW",
+        "udyamNumber": "UDYAM-KL-00-3078801",
+        "businessName": "Balaji Dental Care LLP"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "32TTNXB7384T1ZW",
+          "legal_name": "Balaji Dental Care LLP",
+          "trade_name": "Balaji Dental Care LLP",
+          "constitution": "Limited Liability Partnership",
+          "principal_place_of_business": "Shop/Unit 164, Station Road, Kochi, Kerala - 289398",
+          "state": "Kerala",
+          "registration_date": "2020-06-04",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-KL-00-3078801",
+          "enterprise_name": "Balaji Dental Care LLP",
+          "enterprise_type": "Micro",
+          "major_activity": "Services",
+          "nic_description": "Dental clinic",
+          "state": "Kerala",
+          "city": "Kochi",
+          "date_of_registration": "2023-12-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Balaji Dental Care LLP",
+            "tradeName": "Balaji Dental Care LLP",
+            "status": "Active",
+            "address": "Shop/Unit 164, Station Road, Kochi, Kerala - 289398",
+            "state": "Kerala"
+          },
+          "udyam": {
+            "enterpriseName": "Balaji Dental Care LLP",
+            "enterpriseType": "Micro",
+            "activity": "Services",
+            "city": "Kochi",
+            "state": "Kerala"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794055444265-98agi",
+      "createdAt": "2026-11-07T12:44:04.265Z",
+      "leadId": "L00002",
+      "submittedData": {
+        "gstin": "33MFTXS9954Q1Z9",
+        "udyamNumber": "UDYAM-TN-00-3866196",
+        "businessName": "Star Electronics",
+        "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "33MFTXS9954Q1Z9",
+          "legal_name": "Joseph Joshi (Prop. Star Electronics)",
+          "trade_name": "Star Electronics",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+          "state": "Tamil Nadu",
+          "registration_date": "2025-10-05",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-TN-00-3866196",
+          "enterprise_name": "Star Electronics",
+          "enterprise_type": "Micro",
+          "major_activity": "Trading",
+          "nic_description": "Electronics retail chain",
+          "state": "Tamil Nadu",
+          "city": "Chennai",
+          "date_of_registration": "2021-04-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Joshi (Prop. Star Electronics)",
+            "tradeName": "Star Electronics",
+            "status": "Active",
+            "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+            "state": "Tamil Nadu"
+          },
+          "udyam": {
+            "enterpriseName": "Star Electronics",
+            "enterpriseType": "Micro",
+            "activity": "Trading",
+            "city": "Chennai",
+            "state": "Tamil Nadu"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794055458968-mhocr",
+      "createdAt": "2026-11-07T12:44:18.968Z",
+      "leadId": "L00002",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "/uploads/1794055457662_WhatsApp_Image_2026-11-05_at_1.31.57_AM.jpeg",
+        "localPath": "C:\\Users\\rajar\\OneDrive\\Programs\\Projects\\udyam\\server\\uploads\\1794055457662_WhatsApp_Image_2026-11-05_at_1.31.57_AM.jpeg",
+        "storageType": "local",
+        "filename": "WhatsApp Image 2026-11-05 at 1.31.57 AM.jpeg",
+        "size": 40146
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "WhatsApp Image 2026-11-05 at 1.31.57 AM.jpeg",
+        "rawText": "SE |\nh |",
+        "confidence": 34,
+        "gstin": "",
+        "udyamNumber": "",
+        "businessName": "",
+        "signatoryName": "",
+        "address": "",
+        "date": ""
+      }
+    },
+    {
+      "_id": "KYC-1794055462748-giytl",
+      "createdAt": "2026-11-07T12:44:22.748Z",
+      "leadId": "L00002",
+      "submittedData": {
+        "gstin": "33MFTXS9954Q1Z9",
+        "udyamNumber": "UDYAM-TN-00-3866196",
+        "businessName": "Star Electronics",
+        "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "33MFTXS9954Q1Z9",
+          "legal_name": "Joseph Joshi (Prop. Star Electronics)",
+          "trade_name": "Star Electronics",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+          "state": "Tamil Nadu",
+          "registration_date": "2025-10-05",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-TN-00-3866196",
+          "enterprise_name": "Star Electronics",
+          "enterprise_type": "Micro",
+          "major_activity": "Trading",
+          "nic_description": "Electronics retail chain",
+          "state": "Tamil Nadu",
+          "city": "Chennai",
+          "date_of_registration": "2021-04-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Joshi (Prop. Star Electronics)",
+            "tradeName": "Star Electronics",
+            "status": "Active",
+            "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+            "state": "Tamil Nadu"
+          },
+          "udyam": {
+            "enterpriseName": "Star Electronics",
+            "enterpriseType": "Micro",
+            "activity": "Trading",
+            "city": "Chennai",
+            "state": "Tamil Nadu"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794055472488-vo1yu",
+      "createdAt": "2026-11-07T12:44:32.488Z",
+      "leadId": "L00002",
+      "submittedData": {
+        "gstin": "33MFTXS9954Q1Z9",
+        "udyamNumber": "UDYAM-TN-00-3866196",
+        "businessName": "Star Electronics",
+        "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "33MFTXS9954Q1Z9",
+          "legal_name": "Joseph Joshi (Prop. Star Electronics)",
+          "trade_name": "Star Electronics",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+          "state": "Tamil Nadu",
+          "registration_date": "2025-10-05",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-TN-00-3866196",
+          "enterprise_name": "Star Electronics",
+          "enterprise_type": "Micro",
+          "major_activity": "Trading",
+          "nic_description": "Electronics retail chain",
+          "state": "Tamil Nadu",
+          "city": "Chennai",
+          "date_of_registration": "2021-04-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Joshi (Prop. Star Electronics)",
+            "tradeName": "Star Electronics",
+            "status": "Active",
+            "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+            "state": "Tamil Nadu"
+          },
+          "udyam": {
+            "enterpriseName": "Star Electronics",
+            "enterpriseType": "Micro",
+            "activity": "Trading",
+            "city": "Chennai",
+            "state": "Tamil Nadu"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794055473338-kluqs",
+      "createdAt": "2026-11-07T12:44:33.338Z",
+      "leadId": "L00002",
+      "submittedData": {
+        "gstin": "33MFTXS9954Q1Z9",
+        "udyamNumber": "UDYAM-TN-00-3866196",
+        "businessName": "Star Electronics",
+        "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "33MFTXS9954Q1Z9",
+          "legal_name": "Joseph Joshi (Prop. Star Electronics)",
+          "trade_name": "Star Electronics",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+          "state": "Tamil Nadu",
+          "registration_date": "2025-10-05",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-TN-00-3866196",
+          "enterprise_name": "Star Electronics",
+          "enterprise_type": "Micro",
+          "major_activity": "Trading",
+          "nic_description": "Electronics retail chain",
+          "state": "Tamil Nadu",
+          "city": "Chennai",
+          "date_of_registration": "2021-04-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Joshi (Prop. Star Electronics)",
+            "tradeName": "Star Electronics",
+            "status": "Active",
+            "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+            "state": "Tamil Nadu"
+          },
+          "udyam": {
+            "enterpriseName": "Star Electronics",
+            "enterpriseType": "Micro",
+            "activity": "Trading",
+            "city": "Chennai",
+            "state": "Tamil Nadu"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794055473987-9trej",
+      "createdAt": "2026-11-07T12:44:33.987Z",
+      "leadId": "L00002",
+      "submittedData": {
+        "gstin": "33MFTXS9954Q1Z9",
+        "udyamNumber": "UDYAM-TN-00-3866196",
+        "businessName": "Star Electronics",
+        "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "33MFTXS9954Q1Z9",
+          "legal_name": "Joseph Joshi (Prop. Star Electronics)",
+          "trade_name": "Star Electronics",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+          "state": "Tamil Nadu",
+          "registration_date": "2025-10-05",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-TN-00-3866196",
+          "enterprise_name": "Star Electronics",
+          "enterprise_type": "Micro",
+          "major_activity": "Trading",
+          "nic_description": "Electronics retail chain",
+          "state": "Tamil Nadu",
+          "city": "Chennai",
+          "date_of_registration": "2021-04-25"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Joshi (Prop. Star Electronics)",
+            "tradeName": "Star Electronics",
+            "status": "Active",
+            "address": "Shop/Unit 4, Lake View Colony, Chennai, Tamil Nadu - 304733",
+            "state": "Tamil Nadu"
+          },
+          "udyam": {
+            "enterpriseName": "Star Electronics",
+            "enterpriseType": "Micro",
+            "activity": "Trading",
+            "city": "Chennai",
+            "state": "Tamil Nadu"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794063539190-zm92h",
+      "createdAt": "2026-11-07T14:58:59.190Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "/uploads/1794063537961_29_Pankaj_A5_RA.pdf",
+        "localPath": "C:\\Users\\rajar\\OneDrive\\Programs\\Projects\\udyam\\server\\uploads\\1794063537961_29_Pankaj_A5_RA.pdf",
+        "storageType": "local",
+        "filename": "29_Pankaj_A5_RA.pdf",
+        "size": 9440515
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "29_Pankaj_A5_RA.pdf",
+        "rawText": "-- 1 of 10 --\n\n\n\n-- 2 of 10 --\n\n\n\n-- 3 of 10 --\n\n\n\n-- 4 of 10 --\n\n\n\n-- 5 of 10 --\n\n\n\n-- 6 of 10 --\n\n\n\n-- 7 of 10 --\n\n\n\n-- 8 of 10 --\n\n\n\n-- 9 of 10 --\n\n\n\n-- 10 of 10 --",
+        "confidence": 88,
+        "gstin": "",
+        "udyamNumber": "",
+        "businessName": "",
+        "signatoryName": "",
+        "address": "",
+        "date": ""
+      }
+    },
+    {
+      "_id": "KYC-1794063844033-cu6wx",
+      "createdAt": "2026-11-07T15:04:04.033Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794063841/udyam_digital_kyc/ld9msk9sjmu6ndpcywuo.png",
+        "publicId": "udyam_digital_kyc/ld9msk9sjmu6ndpcywuo",
+        "storageType": "cloudinary",
+        "filename": "K01_gst_certificate.png",
+        "size": 152921
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K01_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\n\nFormat for hackathon OCR testing only\n\nGSTIN 37IHKXV5167L1ZS\n\nLegal name Neha Kaur (Prop. Vindhya Tours & Travels)\nTrade name Vindhya Tours & Travels\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 1, Tech Park Road, Visakhapatnam, A\n\nplace of business ndhra Pradesh -- 118383\n\nDate of liability 2025-06-07\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 91,
+        "gstin": "37IHKXV5167L1ZS",
+        "udyamNumber": "",
+        "businessName": "Trade name Vindhya Tours & Travels",
+        "signatoryName": "",
+        "address": "",
+        "date": "2025-06-07"
+      }
+    },
+    {
+      "_id": "KYC-1794083468087-weqey",
+      "createdAt": "2026-11-07T20:31:08.087Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/raw/upload/v1794083466/udyam_digital_kyc/roewvninvpx7229tfi36",
+        "publicId": "udyam_digital_kyc/roewvninvpx7229tfi36",
+        "storageType": "cloudinary",
+        "filename": "notes.txt",
+        "size": 41
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "notes.txt",
+        "rawText": "",
+        "confidence": 0,
+        "gstin": "",
+        "udyamNumber": "",
+        "businessName": "",
+        "signatoryName": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)",
+          "Legal/Trade Business Name"
+        ],
+        "validationMessage": "Document is not correct or mandatory fields (GSTIN (15-character Tax ID), Legal/Trade Business Name) could not be detected. Please re-upload a clear, valid certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794083471417-e5twf",
+      "createdAt": "2026-11-07T20:31:11.417Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083468/udyam_digital_kyc/aoqtbfrdj5yhjdpezgo0.png",
+        "publicId": "udyam_digital_kyc/aoqtbfrdj5yhjdpezgo0",
+        "storageType": "cloudinary",
+        "filename": "K01_gst_certificate.png",
+        "size": 152921
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K01_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\n\nFormat for hackathon OCR testing only\n\nGSTIN 37IHKXV5167L1ZS\n\nLegal name Neha Kaur (Prop. Vindhya Tours & Travels)\nTrade name Vindhya Tours & Travels\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 1, Tech Park Road, Visakhapatnam, A\n\nplace of business ndhra Pradesh -- 118383\n\nDate of liability 2025-06-07\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 91,
+        "gstin": "37IHKXV5167L1ZS",
+        "udyamNumber": "",
+        "businessName": "Trade name Vindhya Tours & Travels",
+        "signatoryName": "",
+        "address": "",
+        "date": "2025-06-07",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 37IHKXV5167L1ZS, Name: Trade name Vindhya Tours & Travels."
+      }
+    },
+    {
+      "_id": "KYC-1794083471498-izfut",
+      "createdAt": "2026-11-07T20:31:11.498Z",
+      "submittedData": {
+        "gstin": "32TTNXB7384T1ZW",
+        "businessName": "Balaji Dental Care LLP"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": false,
+        "gstinRecord": {
+          "gstin": "32TTNXB7384T1ZW",
+          "legal_name": "Balaji Dental Care LLP",
+          "trade_name": "Balaji Dental Care LLP",
+          "constitution": "Limited Liability Partnership",
+          "principal_place_of_business": "Shop/Unit 164, Station Road, Kochi, Kerala - 289398",
+          "state": "Kerala",
+          "registration_date": "2020-06-04",
+          "status": "Active"
+        },
+        "udyamRecord": null,
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Balaji Dental Care LLP",
+            "tradeName": "Balaji Dental Care LLP",
+            "status": "Active",
+            "address": "Shop/Unit 164, Station Road, Kochi, Kerala - 289398",
+            "state": "Kerala"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794083471544-2j8yk",
+      "createdAt": "2026-11-07T20:31:11.544Z",
+      "submittedData": {
+        "gstin": "99AAAAA0000A1Z5",
+        "businessName": "Non Existent Enterprises"
+      },
+      "verificationResult": {
+        "isGstinValid": false,
+        "isUdyamValid": false,
+        "gstinRecord": null,
+        "udyamRecord": null,
+        "nameMatchScore": 0,
+        "overallStatus": "FAILED",
+        "reasons": [
+          "GSTIN \"99AAAAA0000A1Z5\" was not found in the official GST registry."
+        ],
+        "matchDetails": {}
+      }
+    },
+    {
+      "_id": "KYC-1794083574443-au1bn",
+      "createdAt": "2026-11-07T20:32:54.443Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083572/udyam_digital_kyc/yblkbmssptmcrxhnz5ch.png",
+        "publicId": "udyam_digital_kyc/yblkbmssptmcrxhnz5ch",
+        "storageType": "cloudinary",
+        "filename": "K02_gst_certificate.png",
+        "size": 207526
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K02_gst_certificate.png",
+        "rawText": "Specimen; GST Registration, Certificate\nFormat for hackathon OCR testing only\nGSTIN 19606 #41157, 7,\nLega; hame Joseph Shah (Prop. Harmony, Dentaf Care)\nTrade Name Harmony, Dental Care\nConstitution, Proprietorship,\nAddress of Principay Shop/ynit 199, Station Road, Kolkata, West Ba\nPlace of businegg ngaf - 347550\nDate of liability 2022.04.37 7\nType of registratjop, Regular\nAccel yTy. Hackathon - Track A test data. Fietiong business, person and identifieys",
+        "confidence": 69,
+        "gstin": "",
+        "udyamNumber": "",
+        "businessName": "Constitution, Proprietorship,",
+        "signatoryName": "",
+        "address": "",
+        "date": "2022.04.37",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)"
+        ],
+        "validationMessage": "Document is not correct or mandatory fields (GSTIN (15-character Tax ID)) could not be detected. Please re-upload a clear, valid certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794083632266-xewpu",
+      "createdAt": "2026-11-07T20:33:52.266Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083630/udyam_digital_kyc/hzamtbd702dasz3rq9dq.png",
+        "publicId": "udyam_digital_kyc/hzamtbd702dasz3rq9dq",
+        "storageType": "cloudinary",
+        "filename": "K02_gst_certificate.png",
+        "size": 207526
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K02_gst_certificate.png",
+        "rawText": "Specimen; GST Registration, Certificate\nFormat for hackathon OCR testing only\nGSTIN 19606 #41157, 7,\nLega; hame Joseph Shah (Prop. Harmony, Dentaf Care)\nTrade Name Harmony, Dental Care\nConstitution, Proprietorship,\nAddress of Principay Shop/ynit 199, Station Road, Kolkata, West Ba\nPlace of businegg ngaf - 347550\nDate of liability 2022.04.37 7\nType of registratjop, Regular\nAccel yTy. Hackathon - Track A test data. Fietiong business, person and identifieys",
+        "confidence": 69,
+        "gstin": "",
+        "udyamNumber": "",
+        "businessName": "Constitution, Proprietorship,",
+        "signatoryName": "",
+        "address": "",
+        "date": "2022.04.37",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)"
+        ],
+        "validationMessage": "Document is not correct or mandatory fields (GSTIN (15-character Tax ID)) could not be detected. Please re-upload a clear, valid certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794083699527-slt4s",
+      "createdAt": "2026-11-07T20:34:59.527Z",
+      "leadId": "L00001",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083697/udyam_digital_kyc/foppv0ahut1yrubuevaz.png",
+        "publicId": "udyam_digital_kyc/foppv0ahut1yrubuevaz",
+        "storageType": "cloudinary",
+        "filename": "K06_udyam_certificate.png",
+        "size": 130145
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K06_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-RJ-00-6577157\n\nEnterprise name Saffron Unisex Salon\n\nMajor activity Services\n\nCity Jaipur\n\nState Rajasthan\n\nDate of registration 2023-01-24\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "businessName": "Major activity Services",
+        "signatoryName": "",
+        "address": "",
+        "date": "2023-01-24",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: Udyam: UDYAM-RJ-00-6577157, Name: Major activity Services."
+      }
+    },
+    {
+      "_id": "KYC-1794083734057-skozh",
+      "createdAt": "2026-11-07T20:35:34.057Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083731/udyam_digital_kyc/zvx70av6ea1imlokxzio.png",
+        "publicId": "udyam_digital_kyc/zvx70av6ea1imlokxzio",
+        "storageType": "cloudinary",
+        "filename": "K07_gst_certificate.png",
+        "size": 149579
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K07_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\nFormat for hackathon OCR testing only\n\nGSTIN 07CPCXNO398P1ZT\n\nLegal name Neha Banerjee (Prop. Shri Physio Clinic)\nTrade name Neelgiri Physio Clinic\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 52, Transport Nagar, Delhi, Delhi -\n\nplace of business 334596\n\nDate of liability 2024-01-13\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "",
+        "businessName": "Trade name Neelgiri Physio Clinic",
+        "signatoryName": "",
+        "address": "",
+        "date": "2024-01-13",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)"
+        ],
+        "validationMessage": "Document is not correct or mandatory fields (GSTIN (15-character Tax ID)) could not be detected. Please re-upload a clear, valid certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794083866540-niuuc",
+      "createdAt": "2026-11-07T20:37:46.540Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083864/udyam_digital_kyc/oeuj7h9qbylxpm4vraoc.jpg",
+        "publicId": "udyam_digital_kyc/oeuj7h9qbylxpm4vraoc",
+        "storageType": "cloudinary",
+        "filename": "media_1794083645689_9a614d6e.jpg",
+        "size": 73880
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "media_1794083645689_9a614d6e.jpg",
+        "rawText": "Specimen; GST Registration Certificate\nForme for hackathon oop testing ony\nGSTin 19E0GKHA1 151 7,\nLegal name Joseph Shah (Prop, Harmony, Dentaf Care)\nTrade Name Harmon, Dental Care\nConstitution Proprietorship,\nAddress of Principgg Shop/Unit 199, Station Road, Kolkata, West ge\nPlace of business ngal- 347550\nDate of lability 2022.04 7\nType of registratiop, Regular\nFECT bakathon rc rg SE re bares, page, and identi,",
+        "confidence": 60,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "",
+        "businessName": "Trade Name Harmon, Dental Care",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Name: Trade Name Harmon, Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794083949940-0ggvs",
+      "createdAt": "2026-11-07T20:39:09.940Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794083948/udyam_digital_kyc/ygnswt65djaezqzxxrpk.png",
+        "publicId": "udyam_digital_kyc/ygnswt65djaezqzxxrpk",
+        "storageType": "cloudinary",
+        "filename": "K02_gst_certificate.png",
+        "size": 207526
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K02_gst_certificate.png",
+        "rawText": "Specimen; GST Registration, Certificate\nFormat for hackathon OCR testing only\nGSTIN 19606 #41157, 7,\nLega; hame Joseph Shah (Prop. Harmony, Dentaf Care)\nTrade Name Harmony, Dental Care\nConstitution, Proprietorship,\nAddress of Principay Shop/ynit 199, Station Road, Kolkata, West Ba\nPlace of businegg ngaf - 347550\nDate of liability 2022.04.37 7\nType of registratjop, Regular\nAccel yTy. Hackathon - Track A test data. Fietiong business, person and identifieys",
+        "confidence": 69,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "businessName": "Constitution, Proprietorship,",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2022.04.37",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Constitution, Proprietorship,."
+      }
+    },
+    {
+      "_id": "KYC-1794084028885-rbwqr",
+      "createdAt": "2026-11-07T20:40:28.885Z",
+      "leadId": "L00001",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794084027/udyam_digital_kyc/rgu369xs8kupjqaudsij.png",
+        "publicId": "udyam_digital_kyc/rgu369xs8kupjqaudsij",
+        "storageType": "cloudinary",
+        "filename": "K02_udyam_certificate.png",
+        "size": 131409
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K02_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-WB-00-5053330\n\nEnterprise name Harmony Dental Care\n\nMajor activity Services\n\nCity Kolkata\n\nState West Bengal\n\nDate of registration 2023-01-11\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "businessName": "Major activity Services",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2023-01-11",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Major activity Services."
+      }
+    },
+    {
+      "_id": "KYC-1794084034753-rdqqg",
+      "createdAt": "2026-11-07T20:40:34.753Z",
+      "leadId": "L00001",
+      "submittedData": {
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "businessName": "Major activity Services",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "19EOGXH4115Y1ZL",
+          "legal_name": "Joseph Shah (Prop. Harmony Dental Care)",
+          "trade_name": "Harmony Dental Care",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+          "state": "West Bengal",
+          "registration_date": "2022-04-17",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-WB-00-5053330",
+          "enterprise_name": "Harmony Dental Care",
+          "enterprise_type": "Small",
+          "major_activity": "Services",
+          "nic_description": "Dental clinic",
+          "state": "West Bengal",
+          "city": "Kolkata",
+          "date_of_registration": "2022-09-27"
+        },
+        "nameMatchScore": 9,
+        "overallStatus": "FAILED",
+        "reasons": [
+          "Business name \"Major activity Services\" does not match the official registry entity \"Harmony Dental Care\" (9% match)."
+        ],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+            "tradeName": "Harmony Dental Care",
+            "status": "Active",
+            "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+            "state": "West Bengal"
+          },
+          "udyam": {
+            "enterpriseName": "Harmony Dental Care",
+            "enterpriseType": "Small",
+            "activity": "Services",
+            "city": "Kolkata",
+            "state": "West Bengal"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794084702171-g019d",
+      "createdAt": "2026-11-07T20:51:42.171Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794084700/udyam_digital_kyc/q4jbhyfeoajvqzmsdgee.jpg",
+        "publicId": "udyam_digital_kyc/q4jbhyfeoajvqzmsdgee",
+        "storageType": "cloudinary",
+        "filename": "media_1794083645689_9a614d6e.jpg",
+        "size": 73880
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "media_1794083645689_9a614d6e.jpg",
+        "rawText": "Specimen; GST Registration Certificate\nForme for hackathon oop testing ony\nGSTin 19E0GKHA1 151 7,\nLegal name Joseph Shah (Prop, Harmony, Dentaf Care)\nTrade Name Harmon, Dental Care\nConstitution Proprietorship,\nAddress of Principgg Shop/Unit 199, Station Road, Kolkata, West ge\nPlace of business ngal- 347550\nDate of lability 2022.04 7\nType of registratiop, Regular\nFECT bakathon rc rg SE re bares, page, and identi,",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "Proprietorship",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794084727389-qo0ci",
+      "createdAt": "2026-11-07T20:52:07.389Z",
+      "submittedData": {
+        "gstin": "19EOGXH4115Y1ZL",
+        "businessName": "Harmony Dental Care"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": false,
+        "gstinRecord": {
+          "gstin": "19EOGXH4115Y1ZL",
+          "legal_name": "Joseph Shah (Prop. Harmony Dental Care)",
+          "trade_name": "Harmony Dental Care",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+          "state": "West Bengal",
+          "registration_date": "2022-04-17",
+          "status": "Active"
+        },
+        "udyamRecord": null,
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+            "tradeName": "Harmony Dental Care",
+            "status": "Active",
+            "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+            "state": "West Bengal"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794084799522-r7tz4",
+      "createdAt": "2026-11-07T20:53:19.522Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794084797/udyam_digital_kyc/ab59xzxudttz52wdsedy.png",
+        "publicId": "udyam_digital_kyc/ab59xzxudttz52wdsedy",
+        "storageType": "cloudinary",
+        "filename": "K02_gst_certificate.png",
+        "size": 207526
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K02_gst_certificate.png",
+        "rawText": "Specimen; GST Registration, Certificate\nFormat for hackathon OCR testing only\nGSTIN 19606 #41157, 7,\nLega; hame Joseph Shah (Prop. Harmony, Dentaf Care)\nTrade Name Harmony, Dental Care\nConstitution, Proprietorship,\nAddress of Principay Shop/ynit 199, Station Road, Kolkata, West Ba\nPlace of businegg ngaf - 347550\nDate of liability 2022.04.37 7\nType of registratjop, Regular\nAccel yTy. Hackathon - Track A test data. Fietiong business, person and identifieys",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2022.04.37",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794084821608-f8qzl",
+      "createdAt": "2026-11-07T20:53:41.608Z",
+      "leadId": "L00001",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794084819/udyam_digital_kyc/ajic9xuqu9dkogaktkfh.png",
+        "publicId": "udyam_digital_kyc/ajic9xuqu9dkogaktkfh",
+        "storageType": "cloudinary",
+        "filename": "K02_udyam_certificate.png",
+        "size": 131409
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K02_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-WB-00-5053330\n\nEnterprise name Harmony Dental Care\n\nMajor activity Services\n\nCity Kolkata\n\nState West Bengal\n\nDate of registration 2023-01-11\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2023-01-11",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794084825972-4dg4l",
+      "createdAt": "2026-11-07T20:53:45.972Z",
+      "leadId": "L00001",
+      "submittedData": {
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "businessName": "Harmony Dental Care",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "19EOGXH4115Y1ZL",
+          "legal_name": "Joseph Shah (Prop. Harmony Dental Care)",
+          "trade_name": "Harmony Dental Care",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+          "state": "West Bengal",
+          "registration_date": "2022-04-17",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-WB-00-5053330",
+          "enterprise_name": "Harmony Dental Care",
+          "enterprise_type": "Small",
+          "major_activity": "Services",
+          "nic_description": "Dental clinic",
+          "state": "West Bengal",
+          "city": "Kolkata",
+          "date_of_registration": "2022-09-27"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+            "tradeName": "Harmony Dental Care",
+            "status": "Active",
+            "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+            "state": "West Bengal"
+          },
+          "udyam": {
+            "enterpriseName": "Harmony Dental Care",
+            "enterpriseType": "Small",
+            "activity": "Services",
+            "city": "Kolkata",
+            "state": "West Bengal"
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794109914910-5vv13",
+      "createdAt": "2026-11-08T03:51:54.910Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794109912/udyam_digital_kyc/oihcuefqgjioj9ytyfve.png",
+        "publicId": "udyam_digital_kyc/oihcuefqgjioj9ytyfve",
+        "storageType": "cloudinary",
+        "filename": "K04_gst_certificate.png",
+        "size": 331027
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K04_gst_certificate.png",
+        "rawText": "—\none\n——— ey\n-—\n| -\npos\n“oe . Se Coe\nohne co wr\nete [ES P——\n— Septea a\n— an pe\nines ——\nC PF O le ov\nRt oP \\ li\n\\Y) o° \\\net Pe : wot » ne\nFE\n—_ wo pV i\na a \\\n——",
+        "confidence": 31,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)",
+          "Legal/Trade Business Name"
+        ],
+        "validationMessage": "Document is not correct or mandatory fields (GSTIN (15-character Tax ID), Legal/Trade Business Name) could not be detected. Please re-upload a clear, valid certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794110493417-j8z8n",
+      "createdAt": "2026-11-08T04:01:33.418Z",
+      "leadId": "L00001",
+      "docType": "address",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794110491/udyam_digital_kyc/snzzyiz9mmfixrty0git.png",
+        "publicId": "udyam_digital_kyc/snzzyiz9mmfixrty0git",
+        "storageType": "cloudinary",
+        "filename": "K01_address_proof.png",
+        "size": 133366
+      },
+      "extractedData": {
+        "docType": "address",
+        "filename": "K01_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9485717625\n\nBilled to Vindhya Tours & Travels\n\nSupply address Shop/Unit 1, Tech Park Road, Visakhapatnam, A\n\nndhra Pradesh - 118383\n\nBill date 2026-06-26\n\nUnits consumed 2203\n\nAmount due (INR) 27,071\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "37IHKXV5167L1ZS",
+        "udyamNumber": "UDYAM-TS-00-8751054",
+        "legalName": "Neha Kaur (Prop. Vindhya Tours & Travels)",
+        "tradeName": "Vindhya Tours & Travels",
+        "businessName": "Vindhya Tours & Travels",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 1, Tech Park Road, Visakhapatnam, Andhra Pradesh - 118383",
+        "date": "2026-06-26",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 37IHKXV5167L1ZS, Udyam: UDYAM-TS-00-8751054, Name: Vindhya Tours & Travels."
+      }
+    },
+    {
+      "_id": "KYC-1794111375988-buuvi",
+      "createdAt": "2026-11-08T04:16:15.988Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794111373/udyam_digital_kyc/cbb4kwml3iveel3fcjum.png",
+        "publicId": "udyam_digital_kyc/cbb4kwml3iveel3fcjum",
+        "storageType": "cloudinary",
+        "filename": "K02_gst_certificate.png",
+        "size": 207526
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K02_gst_certificate.png",
+        "rawText": "Specimen; GST Registration, Certificate\nFormat for hackathon OCR testing only\nGSTIN 19606 #41157, 7,\nLega; hame Joseph Shah (Prop. Harmony, Dentaf Care)\nTrade Name Harmony, Dental Care\nConstitution, Proprietorship,\nAddress of Principay Shop/ynit 199, Station Road, Kolkata, West Ba\nPlace of businegg ngaf - 347550\nDate of liability 2022.04.37 7\nType of registratjop, Regular\nAccel yTy. Hackathon - Track A test data. Fietiong business, person and identifieys",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2022.04.37",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794111453361-cqus5",
+      "createdAt": "2026-11-08T04:17:33.361Z",
+      "leadId": "L00001",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794111451/udyam_digital_kyc/msded5vkvakzxbgnfzbg.png",
+        "publicId": "udyam_digital_kyc/msded5vkvakzxbgnfzbg",
+        "storageType": "cloudinary",
+        "filename": "K02_udyam_certificate.png",
+        "size": 131409
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K02_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-WB-00-5053330\n\nEnterprise name Harmony Dental Care\n\nMajor activity Services\n\nCity Kolkata\n\nState West Bengal\n\nDate of registration 2023-01-11\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2023-01-11",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794111586313-54m51",
+      "createdAt": "2026-11-08T04:19:46.313Z",
+      "leadId": "L00001",
+      "docType": "address",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794111584/udyam_digital_kyc/ntsjtimrd9qkabczeeqe.png",
+        "publicId": "udyam_digital_kyc/ntsjtimrd9qkabczeeqe",
+        "storageType": "cloudinary",
+        "filename": "K02_address_proof.png",
+        "size": 131222
+      },
+      "extractedData": {
+        "docType": "address",
+        "filename": "K02_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9790713533\n\nBilled to Harmony Dental Care\n\nSupply address Shop/Unit 199, Station Road, Kolkata, West Be\n\nngal - 347550\n\nBill date 2026-05-22\n\nUnits consumed 992\n\nAmount due (INR) 7,077\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2026-05-22",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794111619014-swqv9",
+      "createdAt": "2026-11-08T04:20:19.014Z",
+      "leadId": "L00001",
+      "docType": "signatory",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794111617/udyam_digital_kyc/cf7c4sat4mes5hhrh7cy.png",
+        "publicId": "udyam_digital_kyc/cf7c4sat4mes5hhrh7cy",
+        "storageType": "cloudinary",
+        "filename": "K02_signatory_id.png",
+        "size": 39774
+      },
+      "extractedData": {
+        "docType": "signatory",
+        "filename": "K02_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nJoseph Shah\n\nDesignation\n\nManager\n\nFor business\n\nHarmony Dental Care\n\nID no.\n\nSYN-ID-816907\n\nValid till\n\n2028-09-10\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2028-09-10",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794112398741-fyumr",
+      "createdAt": "2026-11-08T04:33:18.741Z",
+      "leadId": "L00001",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794112396/udyam_digital_kyc/xrqri85pbnc0zoaxpggh.png",
+        "publicId": "udyam_digital_kyc/xrqri85pbnc0zoaxpggh",
+        "storageType": "cloudinary",
+        "filename": "K01_gst_certificate.png",
+        "size": 152921
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K01_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\n\nFormat for hackathon OCR testing only\n\nGSTIN 37IHKXV5167L1ZS\n\nLegal name Neha Kaur (Prop. Vindhya Tours & Travels)\nTrade name Vindhya Tours & Travels\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 1, Tech Park Road, Visakhapatnam, A\n\nplace of business ndhra Pradesh -- 118383\n\nDate of liability 2025-06-07\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "37IHKXV5167L1ZS",
+        "udyamNumber": "UDYAM-TS-00-8751054",
+        "legalName": "Neha Kaur (Prop. Vindhya Tours & Travels)",
+        "tradeName": "Vindhya Tours & Travels",
+        "businessName": "Vindhya Tours & Travels",
+        "constitution": "Proprietorship",
+        "signatoryName": "",
+        "address": "Shop/Unit 1, Tech Park Road, Visakhapatnam, Andhra Pradesh - 118383",
+        "date": "2025-06-07",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 37IHKXV5167L1ZS, Udyam: UDYAM-TS-00-8751054, Name: Vindhya Tours & Travels."
+      }
+    },
+    {
+      "_id": "KYC-1794112414586-02obs",
+      "createdAt": "2026-11-08T04:33:34.586Z",
+      "leadId": "L00001",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794112412/udyam_digital_kyc/tv2gkjtpo2lyhzdeozfp.png",
+        "publicId": "udyam_digital_kyc/tv2gkjtpo2lyhzdeozfp",
+        "storageType": "cloudinary",
+        "filename": "K02_address_proof.png",
+        "size": 131222
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K02_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9790713533\n\nBilled to Harmony Dental Care\n\nSupply address Shop/Unit 199, Station Road, Kolkata, West Be\n\nngal - 347550\n\nBill date 2026-05-22\n\nUnits consumed 992\n\nAmount due (INR) 7,077\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2026-05-22",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794112439754-eml6q",
+      "createdAt": "2026-11-08T04:33:59.754Z",
+      "leadId": "L00001",
+      "docType": "address",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794112438/udyam_digital_kyc/z82rubzvalosrxmnw0vh.png",
+        "publicId": "udyam_digital_kyc/z82rubzvalosrxmnw0vh",
+        "storageType": "cloudinary",
+        "filename": "K02_udyam_certificate.png",
+        "size": 131409
+      },
+      "extractedData": {
+        "docType": "address",
+        "filename": "K02_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-WB-00-5053330\n\nEnterprise name Harmony Dental Care\n\nMajor activity Services\n\nCity Kolkata\n\nState West Bengal\n\nDate of registration 2023-01-11\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "19EOGXH4115Y1ZL",
+        "udyamNumber": "UDYAM-WB-00-5053330",
+        "legalName": "Joseph Shah (Prop. Harmony Dental Care)",
+        "tradeName": "Harmony Dental Care",
+        "businessName": "Harmony Dental Care",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 199, Station Road, Kolkata, West Bengal - 347550",
+        "date": "2023-01-11",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 19EOGXH4115Y1ZL, Udyam: UDYAM-WB-00-5053330, Name: Harmony Dental Care."
+      }
+    },
+    {
+      "_id": "KYC-1794112500628-d72nz",
+      "createdAt": "2026-11-08T04:35:00.628Z",
+      "leadId": "L00001",
+      "docType": "signatory",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794112499/udyam_digital_kyc/c9mg5x1d4jxif7naeh9a.png",
+        "publicId": "udyam_digital_kyc/c9mg5x1d4jxif7naeh9a",
+        "storageType": "cloudinary",
+        "filename": "K03_signatory_id.png",
+        "size": 39539
+      },
+      "extractedData": {
+        "docType": "signatory",
+        "filename": "K03_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nJoseph Singh\n\nDesignation\n\nOwner\n\nFor business\n\nGanesh Woodcraft\n\nID no.\n\nSYN-ID-447889\n\nValid till\n\n2028-07-04\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 96,
+        "gstin": "29FGUXG3354T1ZQ",
+        "udyamNumber": "UDYAM-KR-00-1115424",
+        "legalName": "Vikram Verma (Prop. Ganesh Woodcraft)",
+        "tradeName": "Ganesh Woodcraft",
+        "businessName": "Ganesh Woodcraft",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 69, Station Road, Bengaluru, Karnataka - 767109",
+        "date": "2028-07-04",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 29FGUXG3354T1ZQ, Udyam: UDYAM-KR-00-1115424, Name: Ganesh Woodcraft."
+      }
+    },
+    {
+      "_id": "KYC-1794113538538-9hf1d",
+      "createdAt": "2026-11-08T04:52:18.538Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794113536/udyam_digital_kyc/gwoadvhih1gd46frbt00.png",
+        "publicId": "udyam_digital_kyc/gwoadvhih1gd46frbt00",
+        "storageType": "cloudinary",
+        "filename": "K06_gst_certificate.png",
+        "size": 148975
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\nFormat for hackathon OCR testing only\n\nGSTIN 08YKZXS8189L170\n\nLegal name Pooja Shah (Prop. Saffron Unisex Salon)\nTrade name Saffron Unisex Salon\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\nplace of business -194057\n\nDate of liability 2019-09-25\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "08YKZXS5189L1ZO",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+        "tradeName": "Saffron Unisex Salon",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "Proprietorship",
+        "signatoryName": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+        "date": "2019-09-25",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 08YKZXS5189L1ZO, Udyam: UDYAM-RJ-00-6577157, Name: Saffron Unisex Salon."
+      }
+    },
+    {
+      "_id": "KYC-1794113553300-u36vl",
+      "createdAt": "2026-11-08T04:52:33.300Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794113551/udyam_digital_kyc/entsphynynyahi0rjhfd.png",
+        "publicId": "udyam_digital_kyc/entsphynynyahi0rjhfd",
+        "storageType": "cloudinary",
+        "filename": "K03_address_proof.png",
+        "size": 132072
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K03_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 3438517928\n\nBilled to Ganesh Woodcraft\n\nSupply address Shop/Unit 80, Civil Lines, Nagpur, Maharashtr\n\na-411231\n\nBill date 2026-05-30\n\nUnits consumed 231\n\nAmount due (INR) 33,615\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 96,
+        "gstin": "29FGUXG3354T1ZQ",
+        "udyamNumber": "UDYAM-KR-00-1115424",
+        "legalName": "Vikram Verma (Prop. Ganesh Woodcraft)",
+        "tradeName": "Ganesh Woodcraft",
+        "businessName": "Ganesh Woodcraft",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 69, Station Road, Bengaluru, Karnataka - 767109",
+        "date": "2026-05-30",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 29FGUXG3354T1ZQ, Udyam: UDYAM-KR-00-1115424, Name: Ganesh Woodcraft."
+      }
+    },
+    {
+      "_id": "KYC-1794114960162-s1b2z",
+      "createdAt": "2026-11-08T05:16:00.162Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794114958/udyam_digital_kyc/fvk6xwetmox3zgvkrptn.png",
+        "publicId": "udyam_digital_kyc/fvk6xwetmox3zgvkrptn",
+        "storageType": "cloudinary",
+        "filename": "K03_signatory_id.png",
+        "size": 39539
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K03_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nJoseph Singh\n\nDesignation\n\nOwner\n\nFor business\n\nGanesh Woodcraft\n\nID no.\n\nSYN-ID-447889\n\nValid till\n\n2028-07-04\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 96,
+        "gstin": "29FGUXG3354T1ZQ",
+        "udyamNumber": "UDYAM-KR-00-1115424",
+        "legalName": "Vikram Verma (Prop. Ganesh Woodcraft)",
+        "tradeName": "Ganesh Woodcraft",
+        "businessName": "Ganesh Woodcraft",
+        "constitution": "",
+        "signatoryName": "",
+        "address": "Shop/Unit 69, Station Road, Bengaluru, Karnataka - 767109",
+        "date": "2028-07-04",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Document validated successfully. Mandatory fields detected: GSTIN: 29FGUXG3354T1ZQ, Udyam: UDYAM-KR-00-1115424, Name: Ganesh Woodcraft."
+      }
+    },
+    {
+      "_id": "KYC-1794115646249-49zzx",
+      "createdAt": "2026-11-08T05:27:26.249Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794115644/udyam_digital_kyc/tm1hxkaadiiufimft8n8.png",
+        "publicId": "udyam_digital_kyc/tm1hxkaadiiufimft8n8",
+        "storageType": "cloudinary",
+        "filename": "K06_signatory_id.png",
+        "size": 38627
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nPooja Shah\n\nDesignation\n\nOwner\n\nFor business\n\nSaffron Unisex Salon\n\nID no.\n\nSYN-ID-118354\n\nValid till\n\n2028-09-15\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)",
+          "Registered Business Name",
+          "Principal Place of Business Address"
+        ],
+        "validationMessage": "This document is not a valid GST Certificate. Missing mandatory GSTIN (15-character Tax ID), Registered Business Name, Principal Place of Business Address. Please upload an official Form GST REG-06 Certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794115723574-c0r8e",
+      "createdAt": "2026-11-08T05:28:43.574Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794115721/udyam_digital_kyc/mogzp0b6oxtgdunshc2w.png",
+        "publicId": "udyam_digital_kyc/mogzp0b6oxtgdunshc2w",
+        "storageType": "cloudinary",
+        "filename": "Gemini_Generated_Image_x39ixx39ixx39ixx.png",
+        "size": 8036524
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "Gemini_Generated_Image_x39ixx39ixx39ixx.png",
+        "rawText": "- lL] -\n.\n3 -— ; | |\nJ / / ; A | = 3 > :\n/ : oo f § A 3 : Hl 4 | hn\n» : c : Ri q We 1 1\nA . = )\nh > o hh 6%, )\n\\ 4 : Ll )",
+        "confidence": 42,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)",
+          "Registered Business Name",
+          "Principal Place of Business Address"
+        ],
+        "validationMessage": "This document is not a valid GST Certificate. Missing mandatory GSTIN (15-character Tax ID), Registered Business Name, Principal Place of Business Address. Please upload an official Form GST REG-06 Certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794116931066-ipltm",
+      "createdAt": "2026-11-08T05:48:51.066Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794116929/udyam_digital_kyc/nbmxqryjgkupw66xcmqs.png",
+        "publicId": "udyam_digital_kyc/nbmxqryjgkupw66xcmqs",
+        "storageType": "cloudinary",
+        "filename": "K06_gst_certificate.png",
+        "size": 148975
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\nFormat for hackathon OCR testing only\n\nGSTIN 08YKZXS8189L170\n\nLegal name Pooja Shah (Prop. Saffron Unisex Salon)\nTrade name Saffron Unisex Salon\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\nplace of business -194057\n\nDate of liability 2019-09-25\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "",
+        "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+        "tradeName": "Saffron Unisex Salon",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "Proprietorship",
+        "signatoryName": "Pooja Shah",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "GST Certificate validated successfully. GSTIN: 08YKZXS8189L1Z0, Business: Saffron Unisex Salon, Address: Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057."
+      }
+    },
+    {
+      "_id": "KYC-1794116940290-vn3we",
+      "createdAt": "2026-11-08T05:49:00.290Z",
+      "leadId": "",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794116938/udyam_digital_kyc/lxepcgpautfdsablwift.png",
+        "publicId": "udyam_digital_kyc/lxepcgpautfdsablwift",
+        "storageType": "cloudinary",
+        "filename": "K06_udyam_certificate.png",
+        "size": 130145
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K06_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-RJ-00-6577157\n\nEnterprise name Saffron Unisex Salon\n\nMajor activity Services\n\nCity Jaipur\n\nState Rajasthan\n\nDate of registration 2023-01-24\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Udyam Certificate validated successfully. Udyam: UDYAM-RJ-00-6577157, Enterprise: Saffron Unisex Salon."
+      }
+    },
+    {
+      "_id": "KYC-1794116953601-nyuau",
+      "createdAt": "2026-11-08T05:49:13.601Z",
+      "leadId": "",
+      "docType": "address",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794116951/udyam_digital_kyc/kimvqvhvnyfbqhaw2ybr.png",
+        "publicId": "udyam_digital_kyc/kimvqvhvnyfbqhaw2ybr",
+        "storageType": "cloudinary",
+        "filename": "K06_address_proof.png",
+        "size": 131076
+      },
+      "extractedData": {
+        "docType": "address",
+        "filename": "K06_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9566781101\n\nBilled to Saffron Unisex Salon\n\nSupply address Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\n- 194057\n\nBill date 2026-06-11\n\nUnits consumed 1280\n\nAmount due (INR) 27,352\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 95,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Address proof validated successfully. Address: Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057 (Billed to: Saffron Unisex Salon)."
+      }
+    },
+    {
+      "_id": "KYC-1794116958181-jif44",
+      "createdAt": "2026-11-08T05:49:18.181Z",
+      "leadId": "",
+      "docType": "signatory",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794116956/udyam_digital_kyc/x62e0xxcqxvpxqakaljq.png",
+        "publicId": "udyam_digital_kyc/x62e0xxcqxvpxqakaljq",
+        "storageType": "cloudinary",
+        "filename": "K06_signatory_id.png",
+        "size": 38627
+      },
+      "extractedData": {
+        "docType": "signatory",
+        "filename": "K06_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nPooja Shah\n\nDesignation\n\nOwner\n\nFor business\n\nSaffron Unisex Salon\n\nID no.\n\nSYN-ID-118354\n\nValid till\n\n2028-09-15\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "Pooja Shah",
+        "signatoryRole": "Owner",
+        "address": "",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Signatory identity validated successfully. Signatory: Pooja Shah (Owner)."
+      }
+    },
+    {
+      "_id": "KYC-1794117409094-crprw",
+      "createdAt": "2026-11-08T05:56:49.094Z",
+      "leadId": "",
+      "submittedData": {
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "businessName": "Saffron Unisex Salon",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "signatoryName": "Pooja Shah",
+        "corporateDocType": "Sole Proprietor Declaration",
+        "corporateDocName": ""
+      },
+      "verificationResult": {
+        "isGstinValid": false,
+        "isUdyamValid": true,
+        "gstinRecord": null,
+        "udyamRecord": {
+          "udyam_number": "UDYAM-RJ-00-6577157",
+          "enterprise_name": "Saffron Unisex Salon",
+          "enterprise_type": "Micro",
+          "major_activity": "Trading",
+          "nic_description": "Salon",
+          "state": "Rajasthan",
+          "city": "Jaipur",
+          "date_of_registration": "2025-12-30"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "FAILED",
+        "reasons": [
+          "GSTIN \"08YKZXS8189L1Z0\" was not found in the official GST registry."
+        ],
+        "matchDetails": {
+          "udyam": {
+            "enterpriseName": "Saffron Unisex Salon",
+            "enterpriseType": "Micro",
+            "activity": "Trading",
+            "city": "Jaipur",
+            "state": "Rajasthan"
+          },
+          "addressVerification": {
+            "status": "MATCHED",
+            "score": 100,
+            "message": "Address verified: Address proof matches registered location on GST Certificate (Jaipur, Rajasthan).",
+            "submittedAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "officialAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "source": "GST Certificate & Registry",
+            "cityMatch": true,
+            "stateMatch": true,
+            "pincodeMatch": true
+          },
+          "signatoryVerification": {
+            "status": "CONFIRMED",
+            "matchScore": 85,
+            "signatoryName": "Pooja Shah",
+            "authorityConfirmed": true,
+            "constitution": "Registered Enterprise",
+            "requiredDocument": "Board Resolution",
+            "submittedDocument": "Sole Proprietor Declaration",
+            "legalCapacity": "Authorized Signatory",
+            "message": "Legal authority confirmed: Signatory validated as Authorized Signatory under Board Resolution."
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794117890589-7lpa0",
+      "createdAt": "2026-11-08T06:04:50.589Z",
+      "submittedData": {
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "businessName": "Saffron Unisex Salon",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "signatoryName": "Pooja Shah",
+        "corporateDocType": "Sole Proprietor Declaration"
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "08YKZXS8189L1Z0",
+          "legal_name": "Pooja Shah (Prop. Saffron Unisex Salon)",
+          "trade_name": "Saffron Unisex Salon",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+          "state": "Rajasthan",
+          "registration_date": "2019-09-25",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-RJ-00-6577157",
+          "enterprise_name": "Saffron Unisex Salon",
+          "enterprise_type": "Micro",
+          "major_activity": "Services",
+          "nic_description": "Salon",
+          "state": "Rajasthan",
+          "city": "Jaipur",
+          "date_of_registration": "2023-01-24"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+            "tradeName": "Saffron Unisex Salon",
+            "status": "Active",
+            "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+            "state": "Rajasthan",
+            "constitution": "Proprietorship"
+          },
+          "udyam": {
+            "enterpriseName": "Saffron Unisex Salon",
+            "enterpriseType": "Micro",
+            "activity": "Services",
+            "city": "Jaipur",
+            "state": "Rajasthan"
+          },
+          "addressVerification": {
+            "status": "MATCHED",
+            "score": 100,
+            "message": "Address verified: Address proof matches registered location on GST Certificate (Jaipur, Rajasthan).",
+            "submittedAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "officialAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "source": "GST Certificate & Registry",
+            "cityMatch": true,
+            "stateMatch": true,
+            "pincodeMatch": true
+          },
+          "signatoryVerification": {
+            "status": "CONFIRMED",
+            "matchScore": 100,
+            "signatoryName": "Pooja Shah",
+            "authorityConfirmed": true,
+            "constitution": "Proprietorship",
+            "requiredDocument": "Sole Proprietor Authority Declaration",
+            "submittedDocument": "Sole Proprietor Declaration",
+            "legalCapacity": "Sole Proprietor",
+            "message": "Legal authority confirmed: Signatory validated as Sole Proprietor under Sole Proprietor Authority Declaration."
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794138711110-tjww8",
+      "createdAt": "2026-11-08T11:51:51.110Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794138709/udyam_digital_kyc/cu4bfy8uv68tagnmtviy.png",
+        "publicId": "udyam_digital_kyc/cu4bfy8uv68tagnmtviy",
+        "storageType": "cloudinary",
+        "filename": "K06_udyam_certificate.png",
+        "size": 130145
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-RJ-00-6577157\n\nEnterprise name Saffron Unisex Salon\n\nMajor activity Services\n\nCity Jaipur\n\nState Rajasthan\n\nDate of registration 2023-01-24\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)",
+          "Registered Business Name",
+          "Principal Place of Business Address"
+        ],
+        "validationMessage": "This document is not a valid GST Certificate. Missing mandatory GSTIN (15-character Tax ID), Registered Business Name, Principal Place of Business Address. Please upload an official Form GST REG-06 Certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794138726684-801nf",
+      "createdAt": "2026-11-08T11:52:06.684Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794138725/udyam_digital_kyc/gltoo1hohw7ii2vpancs.png",
+        "publicId": "udyam_digital_kyc/gltoo1hohw7ii2vpancs",
+        "storageType": "cloudinary",
+        "filename": "K06_gst_certificate.png",
+        "size": 148975
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\nFormat for hackathon OCR testing only\n\nGSTIN 08YKZXS8189L170\n\nLegal name Pooja Shah (Prop. Saffron Unisex Salon)\nTrade name Saffron Unisex Salon\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\nplace of business -194057\n\nDate of liability 2019-09-25\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "",
+        "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+        "tradeName": "Saffron Unisex Salon",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "Proprietorship",
+        "signatoryName": "Pooja Shah",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "GST Certificate validated successfully. GSTIN: 08YKZXS8189L1Z0, Business: Saffron Unisex Salon, Address: Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057."
+      }
+    },
+    {
+      "_id": "KYC-1794138751247-gdxka",
+      "createdAt": "2026-11-08T11:52:31.247Z",
+      "leadId": "",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794138749/udyam_digital_kyc/yzgyma3cbmx3gwuus0ce.png",
+        "publicId": "udyam_digital_kyc/yzgyma3cbmx3gwuus0ce",
+        "storageType": "cloudinary",
+        "filename": "K06_udyam_certificate.png",
+        "size": 130145
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K06_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-RJ-00-6577157\n\nEnterprise name Saffron Unisex Salon\n\nMajor activity Services\n\nCity Jaipur\n\nState Rajasthan\n\nDate of registration 2023-01-24\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Udyam Certificate validated successfully. Udyam: UDYAM-RJ-00-6577157, Enterprise: Saffron Unisex Salon."
+      }
+    },
+    {
+      "_id": "KYC-1794138755485-u3wey",
+      "createdAt": "2026-11-08T11:52:35.485Z",
+      "leadId": "",
+      "docType": "address",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794138754/udyam_digital_kyc/vzgawt6d78eqz1cydmtt.png",
+        "publicId": "udyam_digital_kyc/vzgawt6d78eqz1cydmtt",
+        "storageType": "cloudinary",
+        "filename": "K06_address_proof.png",
+        "size": 131076
+      },
+      "extractedData": {
+        "docType": "address",
+        "filename": "K06_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9566781101\n\nBilled to Saffron Unisex Salon\n\nSupply address Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\n- 194057\n\nBill date 2026-06-11\n\nUnits consumed 1280\n\nAmount due (INR) 27,352\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 95,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Address proof validated successfully. Address: Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057 (Billed to: Saffron Unisex Salon)."
+      }
+    },
+    {
+      "_id": "KYC-1794138764044-vahj5",
+      "createdAt": "2026-11-08T11:52:44.044Z",
+      "leadId": "",
+      "docType": "signatory",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794138763/udyam_digital_kyc/u3lnq4ycmzq7zdijs2hx.png",
+        "publicId": "udyam_digital_kyc/u3lnq4ycmzq7zdijs2hx",
+        "storageType": "cloudinary",
+        "filename": "K06_signatory_id.png",
+        "size": 38627
+      },
+      "extractedData": {
+        "docType": "signatory",
+        "filename": "K06_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nPooja Shah\n\nDesignation\n\nOwner\n\nFor business\n\nSaffron Unisex Salon\n\nID no.\n\nSYN-ID-118354\n\nValid till\n\n2028-09-15\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "Pooja Shah",
+        "signatoryRole": "Owner",
+        "address": "",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Signatory identity validated successfully. Signatory: Pooja Shah (Owner)."
+      }
+    },
+    {
+      "_id": "KYC-1794138800557-rq02r",
+      "createdAt": "2026-11-08T11:53:20.557Z",
+      "leadId": "",
+      "submittedData": {
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "businessName": "Saffron Unisex Salon",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "signatoryName": "Pooja Shah",
+        "corporateDocType": "Sole Proprietor Declaration",
+        "corporateDocName": ""
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "08YKZXS8189L1Z0",
+          "legal_name": "Pooja Shah (Prop. Saffron Unisex Salon)",
+          "trade_name": "Saffron Unisex Salon",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+          "state": "Rajasthan",
+          "registration_date": "2019-09-25",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-RJ-00-6577157",
+          "enterprise_name": "Saffron Unisex Salon",
+          "enterprise_type": "Micro",
+          "major_activity": "Services",
+          "nic_description": "Salon",
+          "state": "Rajasthan",
+          "city": "Jaipur",
+          "date_of_registration": "2023-01-24"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+            "tradeName": "Saffron Unisex Salon",
+            "status": "Active",
+            "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+            "state": "Rajasthan",
+            "constitution": "Proprietorship"
+          },
+          "udyam": {
+            "enterpriseName": "Saffron Unisex Salon",
+            "enterpriseType": "Micro",
+            "activity": "Services",
+            "city": "Jaipur",
+            "state": "Rajasthan"
+          },
+          "addressVerification": {
+            "status": "MATCHED",
+            "score": 100,
+            "message": "Address verified: Address proof matches registered location on GST Certificate (Jaipur, Rajasthan).",
+            "submittedAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "officialAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "source": "GST Certificate & Registry",
+            "cityMatch": true,
+            "stateMatch": true,
+            "pincodeMatch": true
+          },
+          "signatoryVerification": {
+            "status": "CONFIRMED",
+            "matchScore": 100,
+            "signatoryName": "Pooja Shah",
+            "authorityConfirmed": true,
+            "constitution": "Proprietorship",
+            "requiredDocument": "Sole Proprietor Authority Declaration",
+            "submittedDocument": "Sole Proprietor Declaration",
+            "legalCapacity": "Sole Proprietor",
+            "message": "Legal authority confirmed: Signatory validated as Sole Proprietor under Sole Proprietor Authority Declaration."
+          }
+        }
+      }
+    },
+    {
+      "_id": "KYC-1794143425240-9lzsb",
+      "createdAt": "2026-11-08T13:10:25.240Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794143422/udyam_digital_kyc/li8mmdrdm7yzrztoccjx.png",
+        "publicId": "udyam_digital_kyc/li8mmdrdm7yzrztoccjx",
+        "storageType": "cloudinary",
+        "filename": "K06_address_proof.png",
+        "size": 131076
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9566781101\n\nBilled to Saffron Unisex Salon\n\nSupply address Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\n- 194057\n\nBill date 2026-06-11\n\nUnits consumed 1280\n\nAmount due (INR) 27,352\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 95,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": false,
+        "missingFields": [
+          "GSTIN (15-character Tax ID)",
+          "Registered Business Name"
+        ],
+        "validationMessage": "This document is not a valid GST Certificate. Missing mandatory GSTIN (15-character Tax ID), Registered Business Name. Please upload an official Form GST REG-06 Certificate."
+      }
+    },
+    {
+      "_id": "KYC-1794143453938-l94yk",
+      "createdAt": "2026-11-08T13:10:53.938Z",
+      "leadId": "",
+      "docType": "gst",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794143450/udyam_digital_kyc/faqxdpyrtq1cpwhldnvj.png",
+        "publicId": "udyam_digital_kyc/faqxdpyrtq1cpwhldnvj",
+        "storageType": "cloudinary",
+        "filename": "K06_gst_certificate.png",
+        "size": 148975
+      },
+      "extractedData": {
+        "docType": "gst",
+        "filename": "K06_gst_certificate.png",
+        "rawText": "Specimen: GST Registration Certificate\nFormat for hackathon OCR testing only\n\nGSTIN 08YKZXS8189L170\n\nLegal name Pooja Shah (Prop. Saffron Unisex Salon)\nTrade name Saffron Unisex Salon\n\nConstitution Proprietorship\n\nAddress of principal Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\nplace of business -194057\n\nDate of liability 2019-09-25\n\nType of registration Regular\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "",
+        "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+        "tradeName": "Saffron Unisex Salon",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "Proprietorship",
+        "signatoryName": "Pooja Shah",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "GST Certificate validated successfully. GSTIN: 08YKZXS8189L1Z0, Business: Saffron Unisex Salon, Address: Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057."
+      }
+    },
+    {
+      "_id": "KYC-1794143499879-p0712",
+      "createdAt": "2026-11-08T13:11:39.879Z",
+      "leadId": "",
+      "docType": "udyam",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794143496/udyam_digital_kyc/kkydcobfdrsebvycyy9x.png",
+        "publicId": "udyam_digital_kyc/kkydcobfdrsebvycyy9x",
+        "storageType": "cloudinary",
+        "filename": "K06_udyam_certificate.png",
+        "size": 130145
+      },
+      "extractedData": {
+        "docType": "udyam",
+        "filename": "K06_udyam_certificate.png",
+        "rawText": "Specimen: Udyam Registration Certificate\nFormat for hackathon OCR testing only\n\nUdyam reg. number UDYAM-RJ-00-6577157\n\nEnterprise name Saffron Unisex Salon\n\nMajor activity Services\n\nCity Jaipur\n\nState Rajasthan\n\nDate of registration 2023-01-24\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Udyam Certificate validated successfully. Udyam: UDYAM-RJ-00-6577157, Enterprise: Saffron Unisex Salon."
+      }
+    },
+    {
+      "_id": "KYC-1794143503944-p21mp",
+      "createdAt": "2026-11-08T13:11:43.944Z",
+      "leadId": "",
+      "docType": "address",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794143500/udyam_digital_kyc/ijcof0p73mz1pjsoiyjn.png",
+        "publicId": "udyam_digital_kyc/ijcof0p73mz1pjsoiyjn",
+        "storageType": "cloudinary",
+        "filename": "K06_address_proof.png",
+        "size": 131076
+      },
+      "extractedData": {
+        "docType": "address",
+        "filename": "K06_address_proof.png",
+        "rawText": "Specimen: Electricity Bill\n\nFictional utility - address proof for OCR testing\n\nConsumer no. 9566781101\n\nBilled to Saffron Unisex Salon\n\nSupply address Shop/Unit 71, Market Yard, Jaipur, Rajasthan\n\n- 194057\n\nBill date 2026-06-11\n\nUnits consumed 1280\n\nAmount due (INR) 27,352\nAccel YTL Hackathon - Track A test data. Fictional business, person and identifiers.",
+        "confidence": 95,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "",
+        "signatoryRole": "",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Address proof validated successfully. Address: Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057 (Billed to: Saffron Unisex Salon)."
+      }
+    },
+    {
+      "_id": "KYC-1794143511769-wjnth",
+      "createdAt": "2026-11-08T13:11:51.769Z",
+      "leadId": "",
+      "docType": "signatory",
+      "fileInfo": {
+        "url": "https://res.cloudinary.com/dqfrjz0kl/image/upload/v1794143510/udyam_digital_kyc/fqtqnidbkpaj2wbc3l9e.png",
+        "publicId": "udyam_digital_kyc/fqtqnidbkpaj2wbc3l9e",
+        "storageType": "cloudinary",
+        "filename": "K06_signatory_id.png",
+        "size": 38627
+      },
+      "extractedData": {
+        "docType": "signatory",
+        "filename": "K06_signatory_id.png",
+        "rawText": "Specimen: Authorised Signatory ID\n\nName\n\nPooja Shah\n\nDesignation\n\nOwner\n\nFor business\n\nSaffron Unisex Salon\n\nID no.\n\nSYN-ID-118354\n\nValid till\n\n2028-09-15\nSYNTHETIC SPECIMEN - NOT A VALID DOCUMENT",
+        "confidence": 94,
+        "gstin": "",
+        "udyamNumber": "",
+        "legalName": "",
+        "tradeName": "",
+        "businessName": "Saffron Unisex Salon",
+        "constitution": "",
+        "signatoryName": "Pooja Shah",
+        "signatoryRole": "Owner",
+        "address": "",
+        "date": "",
+        "isDocumentValid": true,
+        "missingFields": [],
+        "validationMessage": "Signatory identity validated successfully. Signatory: Pooja Shah (Owner)."
+      }
+    },
+    {
+      "_id": "KYC-1794143575857-il57u",
+      "createdAt": "2026-11-08T13:12:55.857Z",
+      "leadId": "",
+      "submittedData": {
+        "gstin": "08YKZXS8189L1Z0",
+        "udyamNumber": "UDYAM-RJ-00-6577157",
+        "businessName": "Saffron Unisex Salon",
+        "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+        "signatoryName": "Pooja Shah",
+        "corporateDocType": "Sole Proprietor Declaration",
+        "corporateDocName": ""
+      },
+      "verificationResult": {
+        "isGstinValid": true,
+        "isUdyamValid": true,
+        "gstinRecord": {
+          "gstin": "08YKZXS8189L1Z0",
+          "legal_name": "Pooja Shah (Prop. Saffron Unisex Salon)",
+          "trade_name": "Saffron Unisex Salon",
+          "constitution": "Proprietorship",
+          "principal_place_of_business": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+          "state": "Rajasthan",
+          "registration_date": "2019-09-25",
+          "status": "Active"
+        },
+        "udyamRecord": {
+          "udyam_number": "UDYAM-RJ-00-6577157",
+          "enterprise_name": "Saffron Unisex Salon",
+          "enterprise_type": "Micro",
+          "major_activity": "Services",
+          "nic_description": "Salon",
+          "state": "Rajasthan",
+          "city": "Jaipur",
+          "date_of_registration": "2023-01-24"
+        },
+        "nameMatchScore": 100,
+        "overallStatus": "VERIFIED",
+        "reasons": [],
+        "matchDetails": {
+          "gstin": {
+            "legalName": "Pooja Shah (Prop. Saffron Unisex Salon)",
+            "tradeName": "Saffron Unisex Salon",
+            "status": "Active",
+            "address": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan - 194057",
+            "state": "Rajasthan",
+            "constitution": "Proprietorship"
+          },
+          "udyam": {
+            "enterpriseName": "Saffron Unisex Salon",
+            "enterpriseType": "Micro",
+            "activity": "Services",
+            "city": "Jaipur",
+            "state": "Rajasthan"
+          },
+          "addressVerification": {
+            "status": "MATCHED",
+            "score": 100,
+            "message": "Address verified: Address proof matches registered location on GST Certificate (Jaipur, Rajasthan).",
+            "submittedAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "officialAddress": "Shop/Unit 71, Market Yard, Jaipur, Rajasthan,-194057",
+            "source": "GST Certificate & Registry",
+            "cityMatch": true,
+            "stateMatch": true,
+            "pincodeMatch": true
+          },
+          "signatoryVerification": {
+            "status": "CONFIRMED",
+            "matchScore": 100,
+            "signatoryName": "Pooja Shah",
+            "authorityConfirmed": true,
+            "constitution": "Proprietorship",
+            "requiredDocument": "Sole Proprietor Authority Declaration",
+            "submittedDocument": "Sole Proprietor Declaration",
+            "legalCapacity": "Sole Proprietor",
+            "message": "Legal authority confirmed: Signatory validated as Sole Proprietor under Sole Proprietor Authority Declaration."
+          }
+        }
+      }
+    }
+  ],
+  "products": []
+}
